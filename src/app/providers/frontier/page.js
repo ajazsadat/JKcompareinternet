@@ -33,7 +33,7 @@ export default function FrontierPage() {
       speed: 'Fiber Up To 1 Gig',
       price: '64.99',
       features: [
-        'Symmetrical Speeds – Ideal for browsing, email & video calls',
+        'High Speeds – Ideal for browsing, email & video calls',
         'Max downloads Speed up to 1 Gig',
         'Ultra-fast speeds for smart homes',
         'Ideal for immersive gaming & streaming in high resolution',
