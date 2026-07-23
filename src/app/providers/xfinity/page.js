@@ -143,10 +143,10 @@ export default function XfinityPage() {
                 <p className="text-xs text-gray-500 mt-2">Taxes, fees & equipment extra</p>
                 
                 <a
-                  href="tel:8889594513"
-                  className="mt-6 w-full flex items-center justify-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 shadow-lg shadow-purple-500/25 transition-all transform hover:-translate-y-1"
+                  href="tel:8888799161"
+                  className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 shadow-lg shadow-purple-500/25 transition-all transform hover:-translate-y-1"
                 >
-                  Compare & Call (888) 959-4513
+                  Compare & Call (888) 879-9161
                 </a>
                 <p className="text-xs text-gray-500 mt-4 text-center">
                   Offers, availability, speeds, and pricing vary by ZIP. We are an independent authorized agent and do not provide service directly.
