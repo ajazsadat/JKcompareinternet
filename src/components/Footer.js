@@ -45,8 +45,8 @@ export default function Footer() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span className="ml-3 text-sm text-gray-400">
-                  5902 Newfoundland Court<br />
-                  Spring, TX 77379
+                  19823 Younglake Blvd<br />
+                  Houston, TX 77084
                 </span>
               </li>
               <li className="flex items-center">
@@ -55,6 +55,14 @@ export default function Footer() {
                 </svg>
                 <span className="ml-3 text-sm text-gray-400">
                   <a href="tel:8889594513" className="hover:text-cyan-400 transition-colors">(888) 959-4513</a>
+                </span>
+              </li>
+              <li className="flex items-center">
+                <svg className="flex-shrink-0 h-5 w-5 text-cyan-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                </svg>
+                <span className="ml-3 text-sm text-gray-400">
+                  <a href="mailto:info@jkcompareinternet.online" className="hover:text-cyan-400 transition-colors">info@jkcompareinternet.online</a>
                 </span>
               </li>
             </ul>
@@ -66,7 +74,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} JKcompareinternet. All rights reserved.
           </p>
           <p className="text-xs text-gray-500 mt-4 md:mt-0 max-w-2xl text-right md:text-left">
-            JKcompareinternet is an independent authorized sales partner — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+            JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
           </p>
         </div>
       </div>

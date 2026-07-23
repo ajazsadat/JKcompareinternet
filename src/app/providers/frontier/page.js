@@ -157,7 +157,7 @@ export default function FrontierPage() {
                   href="tel:8889594513"
                   className="mt-6 w-full flex items-center justify-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 shadow-lg shadow-red-500/25 transition-all transform hover:-translate-y-1"
                 >
-                  Call (888) 959-4513
+                  Compare & Call (888) 959-4513
                 </a>
                 <p className="text-xs text-gray-500 mt-4 text-center">
                   Price may require AutoPay & paperless billing where applicable. Taxes, fees & equipment extra. Pricing & availability vary by ZIP.

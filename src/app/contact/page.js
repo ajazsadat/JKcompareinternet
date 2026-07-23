@@ -39,8 +39,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Our Location</h3>
                     <p className="text-gray-400">
-                      5902 Newfoundland Court<br />
-                      Spring, TX 77379
+                      19823 Younglake Blvd<br />
+                      Houston, TX 77084
                     </p>
                   </div>
                 </div>
@@ -54,6 +54,19 @@ export default function Contact() {
                     <p className="text-gray-400 mb-2">Available Mon-Fri, 9am - 6pm EST</p>
                     <a href="tel:8889594513" className="text-xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
                       (888) 959-4513
+                    </a>
+                  </div>
+                </div>
+
+                <div className="bg-[#1f2833] p-6 rounded-2xl border border-white/5 flex items-start group hover:border-cyan-500/30 transition-colors">
+                  <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-blue-500/20 transition-colors">
+                    <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-semibold text-white mb-1">Email Address</h3>
+                    <p className="text-gray-400 mb-2">Send us an email anytime</p>
+                    <a href="mailto:info@jkcompareinternet.online" className="text-xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
+                      info@jkcompareinternet.online
                     </a>
                   </div>
                 </div>
@@ -84,6 +97,15 @@ export default function Contact() {
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
                   <textarea id="message" rows="4" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all resize-none" placeholder="How can we help you?"></textarea>
+                </div>
+
+                <div className="flex items-start mt-4 mb-6">
+                  <div className="flex items-center h-5">
+                    <input id="consent" type="checkbox" className="w-4 h-4 bg-[#0b0c10] border border-white/10 rounded focus:ring-cyan-500 focus:ring-2" required />
+                  </div>
+                  <label htmlFor="consent" className="ml-3 text-xs text-gray-400 font-light leading-relaxed">
+                    I agree to the <a href="/terms-conditions" className="text-cyan-400 hover:underline">terms & conditions</a> and <a href="/privacy-policy" className="text-cyan-400 hover:underline">privacy policy</a> provided by Simply Activate Services. By providing my phone number, I agree to receive text messages and calls from Simply Activate Services. Consent is not a condition of purchase.
+                  </label>
                 </div>
 
                 <button type="button" className="w-full py-4 px-6 text-lg font-bold rounded-lg text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.3)] transition-all transform hover:-translate-y-1">

@@ -81,7 +81,8 @@ export default function TermsConditions() {
           <h2 className="text-2xl font-semibold text-white mb-4">Contact Us</h2>
           <ul className="space-y-2 font-light text-gray-400">
             <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> (888) 959-4513</li>
-            <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> 5902 Newfoundland Court, Spring TX 77379</li>
+            <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> info@jkcompareinternet.online</li>
+            <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> 19823 Younglake Blvd, Houston TX 77084</li>
           </ul>
         </section>
 
