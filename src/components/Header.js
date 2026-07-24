@@ -58,7 +58,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
+            <Link href="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-300">
               JKcompareinternet
             </Link>
           </div>
@@ -68,8 +68,8 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-cyan-400 ${
-                  isActive(link.href) ? 'text-cyan-400' : 'text-gray-300'
+                className={`text-sm font-medium transition-colors hover:text-blue-400 ${
+                  isActive(link.href) ? 'text-blue-400' : 'text-gray-300'
                 }`}
               >
                 {link.name}
@@ -83,8 +83,8 @@ export default function Header() {
             >
               <button 
                 onClick={() => setIsProvidersOpen(!isProvidersOpen)}
-                className={`text-sm font-medium transition-colors hover:text-cyan-400 flex items-center ${
-                  pathname.includes('/providers') ? 'text-cyan-400' : 'text-gray-300'
+                className={`text-sm font-medium transition-colors hover:text-blue-400 flex items-center ${
+                  pathname.includes('/providers') ? 'text-blue-400' : 'text-gray-300'
                 }`}
               >
                 Providers
@@ -99,7 +99,7 @@ export default function Header() {
                       <Link
                         key={link.name}
                         href={link.href}
-                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-cyan-400"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-blue-400"
                         role="menuitem"
                         onClick={() => setIsProvidersOpen(false)}
                       >
@@ -146,7 +146,7 @@ export default function Header() {
                 href={link.href}
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
                   isActive(link.href) && link.href !== '/'
-                    ? 'bg-gray-900 text-cyan-400'
+                    ? 'bg-gray-900 text-blue-400'
                     : 'text-gray-300 hover:bg-gray-700 hover:text-white'
                 }`}
                 onClick={() => setIsOpen(false)}

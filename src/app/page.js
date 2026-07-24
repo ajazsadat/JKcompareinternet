@@ -60,8 +60,8 @@ All company names, logos, and trademarks displayed on this website (including bu
         </div>
         
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-10">
-          <div className="inline-flex items-center px-4 py-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 text-cyan-400 text-sm font-medium mb-8">
-            <span className="flex w-2 h-2 rounded-full bg-cyan-400 animate-pulse mr-2"></span>
+          <div className="inline-flex items-center px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium mb-8">
+            <span className="flex w-2 h-2 rounded-full bg-blue-400 animate-pulse mr-2"></span>
             Independent Plan Comparison
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight drop-shadow-lg">
@@ -86,15 +86,15 @@ All company names, logos, and trademarks displayed on this website (including bu
       <section className="py-24 bg-[#0b0c10] relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Entertainment & Connectivity Solutions<br/><span className="text-cyan-400">Compared Through JKcompareinternet</span></h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Entertainment & Connectivity Solutions<br/><span className="text-blue-400">Compared Through JKcompareinternet</span></h2>
             <p className="text-gray-400 max-w-2xl mx-auto font-light">Explore your options and find the perfect plan for your home or business.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Box 1 */}
-            <div className="bg-[#1f2833] rounded-3xl p-8 border border-white/5 hover:border-cyan-500/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)] flex flex-col h-full relative overflow-hidden group">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-cyan-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-cyan-400/20 rounded-2xl flex items-center justify-center mb-6 text-cyan-400 border border-cyan-500/20 group-hover:scale-110 transition-transform">
+            <div className="bg-[#1f2833] rounded-3xl p-8 border border-white/5 hover:border-blue-500/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(6,182,212,0.15)] flex flex-col h-full relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-blue-400/20 rounded-2xl flex items-center justify-center mb-6 text-blue-400 border border-blue-500/20 group-hover:scale-110 transition-transform">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">TV & Streaming</h3>
@@ -106,7 +106,7 @@ All company names, logos, and trademarks displayed on this website (including bu
             {/* Box 2 */}
             <div className="bg-[#1f2833] rounded-3xl p-8 border border-white/5 hover:border-blue-500/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(59,130,246,0.15)] flex flex-col h-full relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-600/20 to-indigo-400/20 rounded-2xl flex items-center justify-center mb-6 text-blue-400 border border-blue-500/20 group-hover:scale-110 transition-transform">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600/20 to-blue-400/20 rounded-2xl flex items-center justify-center mb-6 text-blue-400 border border-blue-500/20 group-hover:scale-110 transition-transform">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">High-Speed Internet</h3>
@@ -116,9 +116,9 @@ All company names, logos, and trademarks displayed on this website (including bu
             </div>
 
             {/* Box 3 */}
-            <div className="bg-[#1f2833] rounded-3xl p-8 border border-white/5 hover:border-purple-500/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(168,85,247,0.15)] flex flex-col h-full relative overflow-hidden group">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500/20 to-pink-400/20 rounded-2xl flex items-center justify-center mb-6 text-purple-400 border border-purple-500/20 group-hover:scale-110 transition-transform">
+            <div className="bg-[#1f2833] rounded-3xl p-8 border border-white/5 hover:border-blue-500/30 transition-all duration-300 hover:shadow-[0_0_30px_rgba(168,85,247,0.15)] flex flex-col h-full relative overflow-hidden group">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-500/20 to-blue-400/20 rounded-2xl flex items-center justify-center mb-6 text-blue-400 border border-blue-500/20 group-hover:scale-110 transition-transform">
                 <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">All-in-One Mobile</h3>
@@ -137,7 +137,7 @@ All company names, logos, and trademarks displayed on this website (including bu
             
             <div className="w-full lg:w-1/2">
               <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
-                Compare The Tv & Internet Providers <span className="text-cyan-400">That Suit Your Needs</span>
+                Compare The Tv & Internet Providers <span className="text-blue-400">That Suit Your Needs</span>
               </h2>
               <p className="text-gray-300 text-lg mb-10 font-light leading-relaxed">
                 Looking for TV and internet options in your area? Compare plans from participating providers and explore available offers based on your location. JKcompareinternet can help guide you through your options and assist with enrollment.
@@ -148,7 +148,7 @@ All company names, logos, and trademarks displayed on this website (including bu
               <ul className="space-y-6">
                 <li className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
-                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-500/20 text-blue-400">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                     </div>
                   </div>
@@ -159,7 +159,7 @@ All company names, logos, and trademarks displayed on this website (including bu
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
-                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-500/20 text-blue-400">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                     </div>
                   </div>
@@ -170,7 +170,7 @@ All company names, logos, and trademarks displayed on this website (including bu
                 </li>
                 <li className="flex items-start">
                   <div className="flex-shrink-0 mt-1">
-                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-cyan-500/20 text-cyan-400">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-full bg-blue-500/20 text-blue-400">
                       <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                     </div>
                   </div>
@@ -184,7 +184,7 @@ All company names, logos, and trademarks displayed on this website (including bu
 
             <div className="w-full lg:w-1/2">
               <div className="bg-[#1f2833] rounded-3xl p-10 border border-white/10 shadow-2xl relative overflow-hidden">
-                <div className="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-cyan-500/20 rounded-full blur-3xl"></div>
+                <div className="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-blue-500/20 rounded-full blur-3xl"></div>
                 
                 <h3 className="text-3xl font-bold text-white mb-6 relative z-10">Looking for High-Speed Internet Plan?</h3>
                 <p className="text-gray-300 mb-8 font-light leading-relaxed relative z-10">
@@ -192,7 +192,7 @@ All company names, logos, and trademarks displayed on this website (including bu
                 </p>
                 
                 <div className="relative z-10">
-                  <p className="text-sm text-cyan-400 font-semibold uppercase tracking-wider mb-2">Call for immediate assistance</p>
+                  <p className="text-sm text-blue-400 font-semibold uppercase tracking-wider mb-2">Call for immediate assistance</p>
                   <a
                     href="tel:8888799161"
                     className="flex items-center justify-center text-center w-full px-8 py-5 text-xl font-bold rounded-xl text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 shadow-lg transition-all transform hover:-translate-y-1"
@@ -228,7 +228,7 @@ All company names, logos, and trademarks displayed on this website (including bu
                   className="w-full px-6 py-5 text-left flex justify-between items-center focus:outline-none"
                 >
                   <span className="font-semibold text-lg text-white pr-4">{faq.q}</span>
-                  <span className="flex-shrink-0 text-cyan-400">
+                  <span className="flex-shrink-0 text-blue-400">
                     <svg
                       className={`w-6 h-6 transform transition-transform duration-300 ${openFaq === index ? 'rotate-180' : ''}`}
                       fill="none"
