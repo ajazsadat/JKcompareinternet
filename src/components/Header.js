@@ -42,7 +42,7 @@ export default function Header() {
   if (!mounted) {
     return (
       <header className="fixed w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
-        <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10">
+        <div className="bg-blue-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10">
           JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
         </div>
         <div className="h-20"></div>
@@ -52,13 +52,13 @@ export default function Header() {
 
   return (
     <header className="fixed w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
-      <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
+      <div className="bg-blue-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
         JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
-            <Link href="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300">
+            <Link href="/" className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-300">
               JKcompareinternet
             </Link>
           </div>
@@ -68,8 +68,8 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
-                className={`text-sm font-medium transition-colors hover:text-cyan-400 ${
-                  isActive(link.href) ? 'text-cyan-400' : 'text-gray-300'
+                className={`text-sm font-medium transition-colors hover:text-blue-400 ${
+                  isActive(link.href) ? 'text-blue-400' : 'text-gray-300'
                 }`}
               >
                 {link.name}
@@ -83,8 +83,8 @@ export default function Header() {
             >
               <button 
                 onClick={() => setIsProvidersOpen(!isProvidersOpen)}
-                className={`text-sm font-medium transition-colors hover:text-cyan-400 flex items-center ${
-                  pathname.includes('/providers') ? 'text-cyan-400' : 'text-gray-300'
+                className={`text-sm font-medium transition-colors hover:text-blue-400 flex items-center ${
+                  pathname.includes('/providers') ? 'text-blue-400' : 'text-gray-300'
                 }`}
               >
                 Providers
@@ -99,7 +99,7 @@ export default function Header() {
                       <Link
                         key={link.name}
                         href={link.href}
-                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-cyan-400"
+                        className="block px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 hover:text-blue-400"
                         role="menuitem"
                         onClick={() => setIsProvidersOpen(false)}
                       >
@@ -111,7 +111,7 @@ export default function Header() {
               )}
             </div>
 
-            <a href="tel:8889594513" className="ml-8 inline-flex items-center justify-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 focus:ring-offset-[#0b0c10] transition-all transform hover:scale-105">
+            <a href="tel:8889594513" className="ml-8 inline-flex items-center justify-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 focus:ring-offset-[#0b0c10] transition-all transform hover:scale-105">
               Compare & Call: (888) 959-4513
             </a>
           </div>
@@ -146,7 +146,7 @@ export default function Header() {
                 href={link.href}
                 className={`block px-3 py-2 rounded-md text-base font-medium ${
                   isActive(link.href) && link.href !== '/'
-                    ? 'bg-gray-900 text-cyan-400'
+                    ? 'bg-gray-900 text-blue-400'
                     : 'text-gray-300 hover:bg-gray-700 hover:text-white'
                 }`}
                 onClick={() => setIsOpen(false)}
@@ -170,7 +170,7 @@ export default function Header() {
 
             <a
               href="tel:8889594513"
-              className="block w-full text-center mt-4 px-5 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500"
+              className="block w-full text-center mt-4 px-5 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500"
             >
               Compare & Call (888) 959-4513
             </a>

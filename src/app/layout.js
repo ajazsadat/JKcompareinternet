@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import MobilePopup from "@/components/MobilePopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col bg-[#0b0c10] text-gray-200">
         <Header />
+        <MobilePopup />
         <main className="flex-grow pt-[112px]">{children}</main>
         <Footer />
       </body>

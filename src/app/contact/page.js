@@ -8,7 +8,7 @@ export default function Contact() {
     <div className="flex flex-col min-h-[80vh]">
       {/* Header Banner */}
       <section className="relative py-24 bg-gradient-to-b from-[#111827] to-[#0b0c10] border-b border-white/5">
-        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent"></div>
+        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-blue-500/50 to-transparent"></div>
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Contact <span className="text-gradient">Us</span></h1>
           <p className="text-xl text-gray-300">
@@ -32,9 +32,9 @@ export default function Contact() {
               </div>
 
               <div className="space-y-6">
-                <div className="bg-[#1f2833] p-6 rounded-2xl border border-white/5 flex items-start group hover:border-cyan-500/30 transition-colors">
+                <div className="bg-[#1f2833] p-6 rounded-2xl border border-white/5 flex items-start group hover:border-blue-500/30 transition-colors">
                   <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-blue-500/20 transition-colors">
-                    <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Our Location</h3>
@@ -45,27 +45,27 @@ export default function Contact() {
                   </div>
                 </div>
 
-                <div className="bg-[#1f2833] p-6 rounded-2xl border border-white/5 flex items-start group hover:border-cyan-500/30 transition-colors">
+                <div className="bg-[#1f2833] p-6 rounded-2xl border border-white/5 flex items-start group hover:border-blue-500/30 transition-colors">
                   <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-blue-500/20 transition-colors">
-                    <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                    <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Phone Number</h3>
                     <p className="text-gray-400 mb-2">Available Mon-Fri, 9am - 6pm EST</p>
-                    <a href="tel:8889594513" className="text-xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
+                    <a href="tel:8889594513" className="text-xl font-bold text-blue-400 hover:text-blue-300 transition-colors">
                       (888) 959-4513
                     </a>
                   </div>
                 </div>
 
-                <div className="bg-[#1f2833] p-6 rounded-2xl border border-white/5 flex items-start group hover:border-cyan-500/30 transition-colors">
+                <div className="bg-[#1f2833] p-6 rounded-2xl border border-white/5 flex items-start group hover:border-blue-500/30 transition-colors">
                   <div className="w-12 h-12 bg-blue-500/10 rounded-xl flex items-center justify-center mr-4 group-hover:bg-blue-500/20 transition-colors">
-                    <svg className="w-6 h-6 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Email Address</h3>
                     <p className="text-gray-400 mb-2">Send us an email anytime</p>
-                    <a href="mailto:info@jkcompareinternet.online" className="text-xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
+                    <a href="mailto:info@jkcompareinternet.online" className="text-xl font-bold text-blue-400 hover:text-blue-300 transition-colors">
                       info@jkcompareinternet.online
                     </a>
                   </div>
@@ -75,40 +75,40 @@ export default function Contact() {
 
             {/* Contact Form */}
             <div className="bg-[#1f2833] rounded-3xl p-8 border border-white/10 shadow-2xl relative">
-              <div className="absolute top-0 right-0 -mr-4 -mt-4 w-24 h-24 rounded-full bg-cyan-500/10 blur-xl"></div>
+              <div className="absolute top-0 right-0 -mr-4 -mt-4 w-24 h-24 rounded-full bg-blue-500/10 blur-xl"></div>
               
               <h3 className="text-2xl font-bold text-white mb-6 relative z-10">Send us a message</h3>
               <form className="space-y-6 relative z-10">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Full Name</label>
-                  <input type="text" id="name" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all" placeholder="John Doe" />
+                  <input type="text" id="name" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" placeholder="John Doe" />
                 </div>
                 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Email Address</label>
-                  <input type="email" id="email" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all" placeholder="john@example.com" />
+                  <input type="email" id="email" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" placeholder="john@example.com" />
                 </div>
 
                 <div>
                   <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-2">Phone Number</label>
-                  <input type="tel" id="phone" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all" placeholder="(555) 123-4567" />
+                  <input type="tel" id="phone" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all" placeholder="(555) 123-4567" />
                 </div>
 
                 <div>
                   <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
-                  <textarea id="message" rows="4" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-500 focus:border-transparent transition-all resize-none" placeholder="How can we help you?"></textarea>
+                  <textarea id="message" rows="4" className="w-full bg-[#0b0c10] border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all resize-none" placeholder="How can we help you?"></textarea>
                 </div>
 
                 <div className="flex items-start mt-4 mb-6">
                   <div className="flex items-center h-5">
-                    <input id="consent" type="checkbox" className="w-4 h-4 bg-[#0b0c10] border border-white/10 rounded focus:ring-cyan-500 focus:ring-2" required />
+                    <input id="consent" type="checkbox" className="w-4 h-4 bg-[#0b0c10] border border-white/10 rounded focus:ring-blue-500 focus:ring-2" required />
                   </div>
                   <label htmlFor="consent" className="ml-3 text-xs text-gray-400 font-light leading-relaxed">
-                    I agree to the <a href="/terms-conditions" className="text-cyan-400 hover:underline">terms & conditions</a> and <a href="/privacy-policy" className="text-cyan-400 hover:underline">privacy policy</a> provided by Simply Activate Services. By providing my phone number, I agree to receive text messages and calls from Simply Activate Services. Consent is not a condition of purchase.
+                    I agree to the <a href="/terms-conditions" className="text-blue-400 hover:underline">terms & conditions</a> and <a href="/privacy-policy" className="text-blue-400 hover:underline">privacy policy</a> provided by Simply Activate Services. By providing my phone number, I agree to receive text messages and calls from Simply Activate Services. Consent is not a condition of purchase.
                   </label>
                 </div>
 
-                <button type="button" className="w-full py-4 px-6 text-lg font-bold rounded-lg text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.3)] transition-all transform hover:-translate-y-1">
+                <button type="button" className="w-full py-4 px-6 text-lg font-bold rounded-lg text-white bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500 shadow-[0_0_20px_rgba(6,182,212,0.3)] transition-all transform hover:-translate-y-1">
                   Send Message
                 </button>
               </form>

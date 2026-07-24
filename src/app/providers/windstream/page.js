@@ -83,7 +83,7 @@ export default function WindstreamPage() {
         <div className="absolute inset-0 bg-gradient-to-t from-[#0b0c10] via-transparent to-transparent"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 drop-shadow-lg">
-            Compare <span className="text-green-400">Windstream</span> Plans With JKcompareinternet
+            Compare <span className="text-blue-400">Windstream</span> Plans With JKcompareinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
             1 Gig Speed Option – Designed for streaming, online gaming, and remote work use cases.
@@ -104,15 +104,15 @@ export default function WindstreamPage() {
         {/* Internet Plans Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {plans.map((plan, index) => (
-            <div key={index} className="bg-[#1f2833] rounded-3xl p-8 border border-white/10 hover:border-green-500/50 transition-all duration-300 flex flex-col relative overflow-hidden shadow-xl">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-green-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
+            <div key={index} className="bg-[#1f2833] rounded-3xl p-8 border border-white/10 hover:border-blue-500/50 transition-all duration-300 flex flex-col relative overflow-hidden shadow-xl">
+              <div className="absolute top-0 right-0 w-32 h-32 bg-blue-500/10 rounded-full blur-2xl transform translate-x-1/2 -translate-y-1/2"></div>
               
               <h3 className="text-2xl font-bold text-white mb-2 relative z-10">{plan.speed}</h3>
               
               <ul className="mt-6 space-y-4 flex-grow relative z-10">
                 {plan.features.map((feature, i) => (
                   <li key={i} className="flex items-start text-gray-300 text-sm">
-                    <svg className="w-5 h-5 text-green-400 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
+                    <svg className="w-5 h-5 text-blue-400 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
                     {feature}
                   </li>
                 ))}
@@ -129,7 +129,7 @@ export default function WindstreamPage() {
                 
                 <a
                   href="tel:8889594513"
-                  className="mt-6 w-full flex items-center justify-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-500 hover:to-emerald-500 shadow-lg shadow-green-500/25 transition-all transform hover:-translate-y-1"
+                  className="mt-6 w-full flex items-center justify-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500 shadow-lg shadow-blue-500/25 transition-all transform hover:-translate-y-1"
                 >
                   Compare & Call (888) 959-4513
                 </a>
@@ -149,7 +149,7 @@ export default function WindstreamPage() {
               <div key={`tv-${index}`} className="bg-[#0b0c10] rounded-2xl p-6 border border-white/10 hover:border-blue-500/50 transition-all duration-300 shadow-lg">
                 <div className="flex justify-between items-center border-b border-white/10 pb-4 mb-4">
                   <h3 className="text-xl font-bold text-white">{pkg.name}</h3>
-                  <span className="bg-blue-900/40 text-cyan-400 text-xs font-bold px-3 py-1 rounded-full">{pkg.channels}</span>
+                  <span className="bg-blue-900/40 text-blue-400 text-xs font-bold px-3 py-1 rounded-full">{pkg.channels}</span>
                 </div>
                 
                 <ul className="space-y-3 mb-6 flex-grow">
