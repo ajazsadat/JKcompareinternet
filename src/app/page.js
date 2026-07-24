@@ -17,10 +17,7 @@ export default function Home() {
   const faqs = [
     {
       q: "Are you the internet service provider?",
-      a: "No. JK Compare Internet Operates as an independent comparison platform that helps users explore and evaluate Internet and TV plans from multiple trusted providers. We do not directly sell, install, or manage any Internet or TV services.
-All company names, logos, and trademarks displayed on this website (including but not limited to AT&T, Spectrum, Optimum,Xfinity, Frontier, and Verizon) are the property of their respective owners. These trademarks are used strictly for identification and comparison purposes to assist consumers.
-
-."
+      a: "No. JK Compare Internet operates as an independent comparison platform that helps users explore and evaluate Internet and TV plans from multiple trusted providers. We do not directly sell, install, or manage any Internet or TV services. All company names, logos, and trademarks displayed on this website (including but not limited to AT&T, Spectrum, Optimum, Xfinity, Frontier, and Verizon) are the property of their respective owners. These trademarks are used strictly for identification and comparison purposes to assist consumers."
     },
     {
       q: "Do you charge for your services?",
