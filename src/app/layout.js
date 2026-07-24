@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col bg-[#0b0c10] text-gray-200">
         <Header />
         <MobilePopup />
-        <main className="flex-grow pt-[112px]">{children}</main>
+        <main className="flex-grow">{children}</main>
         <Footer />
       </body>
     </html>

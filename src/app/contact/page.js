@@ -52,8 +52,8 @@ export default function Contact() {
                   <div>
                     <h3 className="text-lg font-semibold text-white mb-1">Phone Number</h3>
                     <p className="text-gray-400 mb-2">Available Mon-Fri, 9am - 6pm EST</p>
-                    <a href="tel:8889594513" className="text-xl font-bold text-blue-400 hover:text-blue-300 transition-colors">
-                      (888) 959-4513
+                    <a href="tel:8888799161" className="text-xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
+                      (888) 879-9161
                     </a>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ export default function Contact() {
                   </label>
                 </div>
 
-                <button type="button" className="w-full py-4 px-6 text-lg font-bold rounded-lg text-white bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500 shadow-[0_0_20px_rgba(6,182,212,0.3)] transition-all transform hover:-translate-y-1">
+                <button type="button" className="w-full py-4 px-6 text-lg text-center font-bold rounded-lg text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 shadow-[0_0_20px_rgba(6,182,212,0.3)] transition-all transform hover:-translate-y-1">
                   Send Message
                 </button>
               </form>

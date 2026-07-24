@@ -41,8 +41,8 @@ export default function Header() {
   // Prevent hydration errors by not rendering UI that depends on window until mounted
   if (!mounted) {
     return (
-      <header className="fixed w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
-        <div className="bg-blue-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10">
+      <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/5">
+        <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10">
           JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
         </div>
         <div className="h-20"></div>
@@ -51,8 +51,8 @@ export default function Header() {
   }
 
   return (
-    <header className="fixed w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
-      <div className="bg-blue-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
+    <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
+      <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
         JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -111,8 +111,8 @@ export default function Header() {
               )}
             </div>
 
-            <a href="tel:8889594513" className="ml-8 inline-flex items-center justify-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 focus:ring-offset-[#0b0c10] transition-all transform hover:scale-105">
-              Compare & Call: (888) 959-4513
+            <a href="tel:8888799161" className="ml-8 inline-flex items-center justify-center text-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 focus:ring-offset-[#0b0c10] transition-all transform hover:scale-105">
+              Compare & Call: (888) 879-9161
             </a>
           </div>
 
@@ -169,10 +169,10 @@ export default function Header() {
             ))}
 
             <a
-              href="tel:8889594513"
-              className="block w-full text-center mt-4 px-5 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500"
+              href="tel:8888799161"
+              className="block w-full text-center mt-4 px-5 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500"
             >
-              Compare & Call (888) 959-4513
+              Compare & Call (888) 879-9161
             </a>
           </div>
         </div>

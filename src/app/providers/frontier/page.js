@@ -33,7 +33,7 @@ export default function FrontierPage() {
       speed: 'Fiber Up To 1 Gig',
       price: '64.99',
       features: [
-        'Symmetrical Speeds – Ideal for browsing, email & video calls',
+        'High Speeds – Ideal for browsing, email & video calls',
         'Max downloads Speed up to 1 Gig',
         'Ultra-fast speeds for smart homes',
         'Ideal for immersive gaming & streaming in high resolution',
@@ -154,10 +154,10 @@ export default function FrontierPage() {
                 <p className="text-xs text-gray-500 mt-2">Taxes, fees & equipment extra</p>
                 
                 <a
-                  href="tel:8889594513"
-                  className="mt-6 w-full flex items-center justify-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-blue-600 to-blue-600 hover:from-blue-500 hover:to-blue-500 shadow-lg shadow-blue-500/25 transition-all transform hover:-translate-y-1"
+                  href="tel:8888799161"
+                  className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 shadow-lg shadow-red-500/25 transition-all transform hover:-translate-y-1"
                 >
-                  Compare & Call (888) 959-4513
+                  Compare & Call (888) 879-9161
                 </a>
                 <p className="text-xs text-gray-500 mt-4 text-center">
                   Price may require AutoPay & paperless billing where applicable. Taxes, fees & equipment extra. Pricing & availability vary by ZIP.
