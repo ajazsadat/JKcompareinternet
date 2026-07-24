@@ -17,7 +17,10 @@ export default function Home() {
   const faqs = [
     {
       q: "Are you the internet service provider?",
-      a: "No. We are an Independent Authorized Reseller that helps customers compare available plans and connect with service providers. We do not provide internet, TV, or mobile services directly."
+      a: "No. Eagle Fiber LLC Operates as an independent comparison platform that helps users explore and evaluate Internet and TV plans from multiple trusted providers. We do not directly sell, install, or manage any Internet or TV services.
+All company names, logos, and trademarks displayed on this website (including but not limited to AT&T, Spectrum, Optimum, Frontier, and Verizon) are the property of their respective owners. These trademarks are used strictly for identification and comparison purposes to assist consumers.
+
+."
     },
     {
       q: "Do you charge for your services?",
