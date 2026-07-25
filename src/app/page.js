@@ -21,7 +21,7 @@ export default function Home() {
     },
     {
       q: "Do you charge for your services?",
-      a: "Our services are free to you. We may receive compensation from providers or authorized partners when you sign up through our referral system — but there is no additional cost to you."
+      a: "Our services are free to you. We may receive compensation from providers or referral partners when you sign up through our referral system — but there is no additional cost to you."
     },
     {
       q: "How do I compare internet plans easily?",
@@ -33,11 +33,15 @@ export default function Home() {
     },
     {
       q: "Do internet providers offer special promotions or discounts?",
-      a: "Yes! Many providers offer introductory pricing, free installation, equipment deals, gift cards, and bundle discounts. As an Independent Authorized Reseller, we have access to exclusive offers that may not be advertised elsewhere."
+      a: "Yes! Many providers offer introductory pricing, free installation, equipment deals, gift cards, and bundle discounts. We help you review current offers available in your area so you can compare what’s available."
     },
     {
       q: "How do I get started?",
       a: "Simply call our experts to view available internet providers, compare plans, and lock in available discounts in your area. Our team can help you by phone for personalized assistance."
+    },
+    {
+      q: "How is installation arranged once I select a plan?",
+      a: "Once you confirm your selection, we help coordinate the process with your chosen provider. Installation timelines vary by provider, location, and technician availability — your provider will confirm the exact schedule once your order is placed."
     }
   ];
 
