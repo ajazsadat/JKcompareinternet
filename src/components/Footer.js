@@ -28,6 +28,12 @@ export default function Footer() {
                 <Link href="/contact" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Contact Us</Link>
               </li>
               <li>
+                <Link href="/live-agent" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Live Agent</Link>
+              </li>
+              <li>
+                <Link href="/independent-support-help" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Independent Support Help</Link>
+              </li>
+              <li>
                 <Link href="/privacy-policy" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Privacy Policy</Link>
               </li>
               <li>
