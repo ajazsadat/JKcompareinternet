@@ -1,8 +1,19 @@
+'use client';
+
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Footer() {
+  const pathname = usePathname() || '';
+  const hideOnMobile =
+    pathname === '/live-agent' || pathname === '/independent-support-help';
+
   return (
-    <footer className="bg-[#0b0c10] border-t border-white/10 pt-12 pb-8">
+    <footer
+      className={`bg-[#0b0c10] border-t border-white/10 pt-12 pb-8 ${
+        hideOnMobile ? 'hidden md:block' : ''
+      }`}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
