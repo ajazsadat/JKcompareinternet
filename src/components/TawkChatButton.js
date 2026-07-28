@@ -1,6 +1,6 @@
 'use client';
 
-export default function TawkChatButton({ className, children = 'Chat Now' }) {
+export default function TawkChatButton({ className, style, children = 'Chat Now' }) {
   const openChat = () => {
     if (typeof window !== 'undefined' && window.Tawk_API?.maximize) {
       window.Tawk_API.maximize();
@@ -20,7 +20,7 @@ export default function TawkChatButton({ className, children = 'Chat Now' }) {
   };
 
   return (
-    <button type="button" onClick={openChat} className={className}>
+    <button type="button" onClick={openChat} className={className} style={style}>
       {children}
     </button>
   );
