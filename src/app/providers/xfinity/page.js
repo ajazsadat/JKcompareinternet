@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
 export const metadata = {
   title: 'Xfinity TV & Internet Deals | JKcompareinternet',
@@ -209,6 +210,8 @@ export default function XfinityPage() {
           Call Now: (888) 879-9161
         </a>
       </section>
+
+      <ProviderWhyChoose providerName="Xfinity" />
     </div>
   );
 }
