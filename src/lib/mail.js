@@ -1,34 +1,34 @@
 import nodemailer from 'nodemailer';
 
-function requiredEnv(name) {
-  const value = process.env[name];
-  if (!value) {
-    throw new Error(`Missing required environment variable: ${name}`);
-  }
-  return value;
-}
+const SMTP = {
+  host: 'mail.careernhustle.com',
+  port: 465,
+  secure: true,
+  user: 'shah@careernhustle.com',
+  pass: 'Sherry@123$$',
+};
+
+const CONTACT_TO_EMAIL = 'info@jkcompareinternet.online';
+const SMTP_FROM = SMTP.user;
 
 export function getMailTransporter() {
-  const host = requiredEnv('SMTP_HOST');
-  const port = Number(process.env.SMTP_PORT || 465);
-  const secure = String(process.env.SMTP_SECURE ?? 'true') === 'true';
-  const user = requiredEnv('SMTP_USER');
-  const pass = requiredEnv('SMTP_PASS');
-
   return nodemailer.createTransport({
-    host,
-    port,
-    secure,
-    auth: { user, pass },
+    host: SMTP.host,
+    port: SMTP.port,
+    secure: SMTP.secure,
+    auth: {
+      user: SMTP.user,
+      pass: SMTP.pass,
+    },
   });
 }
 
 export function getContactToEmail() {
-  return process.env.CONTACT_TO_EMAIL || 'info@jkcompareinternet.online';
+  return CONTACT_TO_EMAIL;
 }
 
 export function getSmtpFromEmail() {
-  return process.env.SMTP_FROM || process.env.SMTP_USER || 'shah@careernhustle.com';
+  return SMTP_FROM;
 }
 
 export async function sendLeadEmail({ subject, html, text, replyTo }) {
