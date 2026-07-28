@@ -118,8 +118,8 @@ export default function Header() {
               )}
             </div>
 
-            <a href="tel:(888) 908-7350" className="ml-8 inline-flex items-center justify-center text-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 focus:ring-offset-[#0b0c10] transition-all transform hover:scale-105">
-              Compare & Call: (888) 908-7350
+            <a href="tel:(888) 879-9161" className="ml-8 inline-flex items-center justify-center text-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 focus:ring-offset-[#0b0c10] transition-all transform hover:scale-105">
+              Compare & Call: (888) 879-9161
             </a>
           </div>
 
@@ -176,10 +176,10 @@ export default function Header() {
             ))}
 
             <a
-              href="tel:(888) 908-7350"
+              href="tel:(888) 879-9161"
               className="block w-full text-center mt-4 px-5 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500"
             >
-              Compare & Call (888) 908-7350
+              Compare & Call (888) 879-9161
             </a>
           </div>
         </div>

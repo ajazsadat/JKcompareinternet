@@ -7,8 +7,8 @@ export const metadata = {
     'How would you like to connect for internet services and assistance? Speak with a human agent or use our automated support line.',
 };
 
-const PHONE_DISPLAY = '(888) 908-7350';
-const PHONE_HREF = 'tel:(888) 908-7350';
+const PHONE_DISPLAY = '(888) 879-9161';
+const PHONE_HREF = 'tel:(888) 879-9161';
 
 function PhoneIcon() {
   return (
