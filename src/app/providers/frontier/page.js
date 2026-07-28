@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
 export const metadata = {
@@ -171,6 +172,8 @@ export default function FrontierPage() {
           ))}
         </div>
       </section>
+
+      <ProviderComparisonTable />
 
       <ProviderWhyChoose providerName="Frontier" />
     </div>

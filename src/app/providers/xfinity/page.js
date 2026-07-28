@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
 export const metadata = {
@@ -185,7 +186,9 @@ export default function XfinityPage() {
         </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 w-full">
+      <ProviderComparisonTable />
+
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 w-full">
         <div className="rounded-2xl border border-cyan-400/25 bg-[#111827] p-7 md:p-9 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
             <h2 className="text-xl md:text-2xl font-bold text-white mb-2">
