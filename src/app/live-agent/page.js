@@ -1,19 +1,18 @@
 import Image from 'next/image';
-import TawkChatButton from '@/components/TawkChatButton';
 
 export const metadata = {
   title: 'Live Agent | JKcompareinternet',
   description:
-    'How would you like to connect for internet services and assistance? Speak with a live agent by phone or chat.',
+    'How would you like to connect for internet services and assistance? Speak with a live agent or use our automated support line.',
 };
 
 const PHONE_DISPLAY = '888-879-9161';
 const PHONE_HREF = 'tel:8888799161';
 
-function CallIcon() {
+function CallIcon({ gradientId = 'liveAgentCallGrad' }) {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 92 92" fill="none" aria-hidden="true">
-      <rect width="92" height="92" rx="46" fill="url(#liveAgentCallGrad)" />
+      <rect width="92" height="92" rx="46" fill={`url(#${gradientId})`} />
       <path
         fillRule="evenodd"
         clipRule="evenodd"
@@ -21,12 +20,27 @@ function CallIcon() {
         fill="white"
       />
       <defs>
-        <linearGradient id="liveAgentCallGrad" x1="65" y1="8.5" x2="25" y2="92" gradientUnits="userSpaceOnUse">
+        <linearGradient id={gradientId} x1="65" y1="8.5" x2="25" y2="92" gradientUnits="userSpaceOnUse">
           <stop stopColor="#22d3ee" />
           <stop offset="1" stopColor="#2563eb" />
         </linearGradient>
       </defs>
     </svg>
+  );
+}
+
+function CallNowButton({ gradientId }) {
+  return (
+    <a
+      href={PHONE_HREF}
+      className="inline-flex items-center justify-start gap-3 rounded-xl border border-cyan-400/40 bg-[#0b0c10] px-4 py-3 no-underline transition hover:border-cyan-300 hover:bg-[#111827]"
+    >
+      <CallIcon gradientId={gradientId} />
+      <span className="text-left">
+        <span className="block text-sm font-semibold text-white sm:text-base">Call Now</span>
+        <span className="block text-base font-semibold text-cyan-400 sm:text-xl">{PHONE_DISPLAY}</span>
+      </span>
+    </a>
   );
 }
 
@@ -56,21 +70,10 @@ export default function LiveAgentPage() {
               to speak with a live agent
             </h4>
             <div className="mx-auto mb-6 h-[2px] w-14 bg-cyan-400" />
-            <a
-              href={PHONE_HREF}
-              className="inline-flex items-center justify-start gap-3 rounded-xl border border-cyan-400/40 bg-[#0b0c10] px-4 py-3 no-underline transition hover:border-cyan-300 hover:bg-[#111827]"
-            >
-              <CallIcon />
-              <span className="text-left">
-                <span className="block text-sm font-semibold text-white sm:text-base">Call Now</span>
-                <span className="block text-base font-semibold text-cyan-400 sm:text-xl">
-                  {PHONE_DISPLAY}
-                </span>
-              </span>
-            </a>
+            <CallNowButton gradientId="liveAgentCallGradPhone" />
           </div>
 
-          {/* Chat card */}
+          {/* Automated Support Line card */}
           <div className="flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
             <Image
               src="/images/live-agent/chat-icon.png"
@@ -79,14 +82,11 @@ export default function LiveAgentPage() {
               height={138}
               className="mb-4 w-[100px] md:w-[120px]"
             />
-            <h2 className="mb-1 text-center text-2xl font-extrabold text-white md:text-3xl">Chat</h2>
-            <h4 className="mb-4 text-center text-base font-semibold text-cyan-400 md:text-lg">
-              with a live agent
-            </h4>
+            <h2 className="mb-4 text-center text-2xl font-extrabold text-white md:text-3xl">
+              Automated Support Line
+            </h2>
             <div className="mx-auto mb-6 h-[2px] w-14 bg-cyan-400" />
-            <TawkChatButton className="rounded-xl border-0 bg-gradient-to-r from-blue-600 to-cyan-600 px-9 py-3.5 text-lg font-bold text-white transition hover:from-blue-500 hover:to-cyan-500">
-              Chat Now
-            </TawkChatButton>
+            <CallNowButton gradientId="liveAgentCallGradAuto" />
           </div>
         </div>
       </div>
