@@ -6,8 +6,8 @@ export const metadata = {
     'How would you like to connect for internet services and assistance? Speak with a live agent or use our automated support line.',
 };
 
-const PHONE_DISPLAY = '888-879-9161';
-const PHONE_HREF = 'tel:8888799161';
+const PHONE_DISPLAY = '(888) 879-9161';
+const PHONE_HREF = 'tel:(888) 879-9161';
 
 function CallIcon({ gradientId = 'liveAgentCallGrad' }) {
   return (

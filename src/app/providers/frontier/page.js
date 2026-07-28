@@ -89,11 +89,14 @@ export default function FrontierPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0b0c10] via-transparent to-transparent"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
+          <p className="text-lg md:text-xl font-semibold text-cyan-300 mb-3 drop-shadow-md">
+            Frontier Internet &amp; Cable Services
+          </p>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 drop-shadow-lg">
             Compare <span className="text-blue-500">Frontier</span> Plans With JKcompareinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
-            Compare high-speed internet plans with speeds up to 7,000 Mbps, depending on location, equipment, and network conditions.
+            Call to get assistance comparing providers and finding the right Frontier plan for your area.
           </p>
         </div>
       </section>
@@ -155,7 +158,7 @@ export default function FrontierPage() {
                 <p className="text-xs text-gray-500 mt-2">Taxes, fees & equipment extra</p>
                 
                 <a
-                  href="tel:8888799161"
+                  href="tel:(888) 879-9161"
                   className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-500 hover:to-rose-500 shadow-lg shadow-red-500/25 transition-all transform hover:-translate-y-1"
                 >
                   Compare & Call (888) 879-9161
