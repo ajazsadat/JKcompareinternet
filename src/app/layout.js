@@ -3,7 +3,6 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import MobilePopup from "@/components/MobilePopup";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,7 +42,6 @@ export default function RootLayout({ children }) {
           `}
         </Script>
         <Header />
-        <MobilePopup />
         <main className="flex-grow">{children}</main>
         <Footer />
       </body>
