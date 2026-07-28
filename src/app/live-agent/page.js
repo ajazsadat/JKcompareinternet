@@ -1,10 +1,9 @@
 import Link from 'next/link';
-import TawkChatButton from '@/components/TawkChatButton';
 
 export const metadata = {
   title: 'Live Agent Help | JKcompareinternet',
   description:
-    'Connect with JKcompareinternet by phone or live chat for independent internet plan comparison and assistance. Not affiliated with any carrier.',
+    'Connect with JKcompareinternet by phone for independent internet plan comparison and assistance. Not affiliated with any carrier.',
 };
 
 export default function LiveAgentPage() {
@@ -45,17 +44,22 @@ export default function LiveAgentPage() {
           </div>
 
           <div className="bg-[#1f2833] rounded-2xl border border-white/10 p-7 md:p-9 flex flex-col">
-            <p className="text-cyan-400 text-sm font-semibold tracking-wide uppercase mb-3">Chat</p>
+            <p className="text-cyan-400 text-sm font-semibold tracking-wide uppercase mb-3">
+              Support line
+            </p>
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-3">
-              Chat with a live agent
+              Automated Support Line
             </h2>
             <p className="text-gray-400 leading-relaxed mb-8 flex-grow">
-              Start a live chat for quick questions. We&apos;re an independent service — not
-              affiliated with any carrier.
+              Call our automated support line for quick assistance. We&apos;re an independent
+              service — not affiliated with any carrier.
             </p>
-            <TawkChatButton className="inline-flex items-center justify-center px-7 py-4 rounded-full font-bold border border-cyan-400/40 text-cyan-200 hover:bg-cyan-400/10 transition">
-              Chat Now
-            </TawkChatButton>
+            <a
+              href="tel:8888799161"
+              className="inline-flex items-center justify-center px-7 py-4 rounded-full font-bold border border-cyan-400/40 text-cyan-200 hover:bg-cyan-400/10 transition"
+            >
+              Call Now (888) 879-9161
+            </a>
           </div>
         </div>
       </section>

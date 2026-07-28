@@ -38,14 +38,17 @@ export default function Header() {
   ];
 
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
-  const hideOnMobile =
+  const hideChrome =
     pathname === '/live-agent' || pathname === '/independent-support-help';
-  const mobileHideClass = hideOnMobile ? 'hidden md:block' : '';
+
+  if (hideChrome) {
+    return null;
+  }
 
   // Prevent hydration errors by not rendering UI that depends on window until mounted
   if (!mounted) {
     return (
-      <header className={`sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/5 ${mobileHideClass}`}>
+      <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/5">
         <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10">
           JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
         </div>
@@ -55,7 +58,7 @@ export default function Header() {
   }
 
   return (
-    <header className={`sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10 ${mobileHideClass}`}>
+    <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
       <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
         JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
       </div>
