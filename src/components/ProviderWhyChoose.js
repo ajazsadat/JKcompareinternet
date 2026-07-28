@@ -1,13 +1,43 @@
+'use client';
+
+import { useState } from 'react';
 import Link from 'next/link';
+import { submitLead } from '@/lib/submitLead';
 
 export default function ProviderWhyChoose({ providerName }) {
   const availabilityLabel = `Check ${providerName} Availability In Your Area`;
+  const [status, setStatus] = useState('idle');
+  const [error, setError] = useState('');
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    setStatus('loading');
+    setError('');
+
+    const formData = new FormData(event.currentTarget);
+    const payload = {
+      formType: 'provider',
+      providerName,
+      name: formData.get('name'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+      message: formData.get('message'),
+    };
+
+    try {
+      await submitLead(payload);
+      setStatus('success');
+      event.currentTarget.reset();
+    } catch (err) {
+      setStatus('error');
+      setError(err.message || 'Unable to send right now.');
+    }
+  }
 
   return (
     <section className="w-full border-t border-white/10 bg-[#111827]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-14 items-start">
-          {/* Why Choose copy + contact details */}
           <div>
             <h3 className="text-2xl md:text-3xl font-extrabold text-white capitalize mb-4">
               Why Choose JKcompareinternet?
@@ -60,10 +90,9 @@ export default function ProviderWhyChoose({ providerName }) {
             </p>
           </div>
 
-          {/* Get Started form */}
           <div className="bg-white rounded-[10px] p-7 md:p-8 shadow-xl">
             <h4 className="text-[26px] font-bold capitalize text-black mb-5">Get Started</h4>
-            <form className="space-y-3">
+            <form className="space-y-3" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
                   <label htmlFor={`${providerName}-name`} className="sr-only">
@@ -73,6 +102,7 @@ export default function ProviderWhyChoose({ providerName }) {
                     id={`${providerName}-name`}
                     type="text"
                     name="name"
+                    required
                     placeholder="Please Enter Your Name"
                     className="w-full rounded-md border border-gray-300 bg-white px-4 py-3 text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-[#5A23B9] focus:border-transparent"
                   />
@@ -144,11 +174,23 @@ export default function ProviderWhyChoose({ providerName }) {
                 </label>
               </div>
 
+              {status === 'success' && (
+                <p className="text-sm text-green-700 bg-green-50 border border-green-200 rounded-md px-3 py-2">
+                  Thanks! Your request was sent successfully.
+                </p>
+              )}
+              {status === 'error' && (
+                <p className="text-sm text-red-700 bg-red-50 border border-red-200 rounded-md px-3 py-2">
+                  {error}
+                </p>
+              )}
+
               <button
-                type="button"
-                className="w-full rounded-md bg-[#5A23B9] hover:bg-black text-white font-semibold text-[17px] py-3.5 px-5 transition-colors"
+                type="submit"
+                disabled={status === 'loading'}
+                className="w-full rounded-md bg-[#5A23B9] hover:bg-black disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold text-[17px] py-3.5 px-5 transition-colors"
               >
-                Submit
+                {status === 'loading' ? 'Sending...' : 'Submit'}
               </button>
             </form>
           </div>

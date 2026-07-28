@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from 'react';
 import Link from 'next/link';
+import { submitLead } from '@/lib/submitLead';
 
 const PACKAGE_OPTIONS = ['Fiber', 'Cable', 'Wireless', 'Landline', '5G', 'TV'];
 
@@ -14,6 +15,8 @@ const selectClass =
 export default function HomeGetStarted() {
   const [provider, setProvider] = useState('');
   const [packages, setPackages] = useState([]);
+  const [status, setStatus] = useState('idle');
+  const [error, setError] = useState('');
 
   const showProviderOther = provider === 'Other';
   const selected = useMemo(() => new Set(packages), [packages]);
@@ -23,6 +26,40 @@ export default function HomeGetStarted() {
       prev.includes(value) ? prev.filter((item) => item !== value) : [...prev, value]
     );
   };
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    setStatus('loading');
+    setError('');
+
+    const formData = new FormData(event.currentTarget);
+    const payload = {
+      formType: 'homepage',
+      name: formData.get('name'),
+      address: formData.get('address'),
+      email: formData.get('email'),
+      phone: formData.get('phone'),
+      provider: formData.get('provider'),
+      providerOther: formData.get('providerOther'),
+      usage: formData.get('usage'),
+      packages,
+      fiber: formData.get('fiber'),
+      wireless: formData.get('wireless'),
+      landline: formData.get('landline'),
+      tv: formData.get('tv'),
+    };
+
+    try {
+      await submitLead(payload);
+      setStatus('success');
+      event.currentTarget.reset();
+      setProvider('');
+      setPackages([]);
+    } catch (err) {
+      setStatus('error');
+      setError(err.message || 'Unable to send right now.');
+    }
+  }
 
   return (
     <section className="w-full border-t border-white/10 bg-[#111827]">
@@ -75,7 +112,7 @@ export default function HomeGetStarted() {
           {/* Right form */}
           <div className="bg-white rounded-[10px] p-7 md:p-8 shadow-xl">
             <h3 className="text-[26px] font-bold capitalize text-black mb-5">Get Started</h3>
-            <form className="space-y-3">
+            <form className="space-y-3" onSubmit={handleSubmit}>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div>
                   <label htmlFor="home-name" className={labelClass}>
@@ -295,11 +332,23 @@ export default function HomeGetStarted() {
                 </label>
               </div>
 
+              {status === 'success' && (
+                <p className="text-sm text-green-700 bg-green-50 border border-green-200 rounded-md px-3 py-2">
+                  Thanks! Your request was sent successfully.
+                </p>
+              )}
+              {status === 'error' && (
+                <p className="text-sm text-red-700 bg-red-50 border border-red-200 rounded-md px-3 py-2">
+                  {error}
+                </p>
+              )}
+
               <button
-                type="button"
-                className="w-full rounded-md bg-[#5A23B9] hover:bg-black text-white font-semibold text-[17px] py-3.5 px-5 transition-colors"
+                type="submit"
+                disabled={status === 'loading'}
+                className="w-full rounded-md bg-[#5A23B9] hover:bg-black disabled:opacity-60 disabled:cursor-not-allowed text-white font-semibold text-[17px] py-3.5 px-5 transition-colors"
               >
-                Submit
+                {status === 'loading' ? 'Sending...' : 'Submit'}
               </button>
             </form>
           </div>
