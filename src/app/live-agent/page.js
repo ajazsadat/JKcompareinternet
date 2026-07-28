@@ -22,8 +22,8 @@ function CallIcon() {
       />
       <defs>
         <linearGradient id="liveAgentCallGrad" x1="65" y1="8.5" x2="25" y2="92" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#FFB17C" />
-          <stop offset="1" stopColor="#FC6427" />
+          <stop stopColor="#22d3ee" />
+          <stop offset="1" stopColor="#2563eb" />
         </linearGradient>
       </defs>
     </svg>
@@ -32,80 +32,59 @@ function CallIcon() {
 
 export default function LiveAgentPage() {
   return (
-    <div
-      className="min-h-screen w-full bg-[#FEF3ED] bg-cover bg-center bg-no-repeat px-3 py-6 sm:px-4 sm:py-8"
-      style={{
-        backgroundImage: "url('/images/live-agent/page-bg.jpg')",
-        fontFamily: 'var(--font-live-lato), Lato, sans-serif',
-      }}
-    >
-      <div className="mx-auto flex w-full max-w-[1340px] flex-col items-center">
-        <h1
-          className="mb-6 max-w-4xl text-center text-[28px] font-extrabold capitalize leading-[34px] text-black sm:mb-8 sm:text-[36px] sm:leading-[44px] md:text-[44px] md:leading-[53px]"
-          style={{ fontFamily: 'var(--font-live-playfair), "Playfair Display", serif' }}
-        >
+    <div className="min-h-screen w-full bg-[#0b0c10] px-4 py-10 sm:py-14">
+      <div className="mx-auto flex w-full max-w-6xl flex-col items-center">
+        <h1 className="mb-8 max-w-4xl text-center text-3xl font-extrabold tracking-tight text-white sm:mb-10 sm:text-4xl md:text-5xl">
           How would you like to connect for Internet{' '}
-          <span className="text-[#FE6B2F]">Services and Assistance?</span>
+          <span className="text-cyan-400">Services and Assistance?</span>
         </h1>
 
-        <div className="flex w-full flex-col items-stretch justify-center gap-4 md:flex-row md:gap-[22px]">
+        <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
           {/* Phone Call card */}
-          <div
-            className="flex min-h-[46vh] w-full flex-col items-center justify-center overflow-hidden rounded-[14px] px-4 py-6 shadow-[0px_0px_10px_0px_rgba(0,0,0,0.18)] md:min-h-[60vh] md:w-[40%] md:px-5"
-            style={{
-              backgroundColor: '#FEF3ED',
-              backgroundImage: "url('/images/live-agent/phone-card-bg.jpg')",
-              backgroundPosition: 'center',
-              backgroundRepeat: 'no-repeat',
-              backgroundSize: 'cover',
-            }}
-          >
+          <div className="flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
             <Image
               src="/images/live-agent/phone-icon.png"
               alt=""
               width={138}
               height={138}
-              className="mb-2 w-[40%] max-w-[110px] md:w-[48%]"
+              className="mb-4 w-[100px] md:w-[120px]"
             />
-            <h2 className="mb-1 text-center text-[28px] font-extrabold capitalize leading-[34px] text-black md:text-[34px] md:leading-[38px]">
+            <h2 className="mb-1 text-center text-2xl font-extrabold text-white md:text-3xl">
               Phone Call
             </h2>
-            <h4 className="mb-3 text-center text-[18px] font-extrabold capitalize leading-[24px] text-[#FE6B2F] md:text-[20px] md:leading-[26px]">
+            <h4 className="mb-4 text-center text-base font-semibold text-cyan-400 md:text-lg">
               to speak with a live agent
             </h4>
-            <div className="mx-auto mb-4 h-[2.5px] w-[14%] bg-[#FE6B2F]" />
+            <div className="mx-auto mb-6 h-[2px] w-14 bg-cyan-400" />
             <a
               href={PHONE_HREF}
-              className="inline-flex items-center justify-start gap-3 rounded-md border border-[#FE6B2F] bg-white px-3 py-2 no-underline transition hover:brightness-95"
+              className="inline-flex items-center justify-start gap-3 rounded-xl border border-cyan-400/40 bg-[#0b0c10] px-4 py-3 no-underline transition hover:border-cyan-300 hover:bg-[#111827]"
             >
               <CallIcon />
-              <span className="text-left" style={{ fontFamily: 'var(--font-live-montserrat), Montserrat, sans-serif' }}>
-                <span className="block text-[16px] font-semibold leading-6 text-black sm:text-[17px]">Call Now</span>
-                <span className="block text-[16px] font-semibold text-[#FE6B2F] sm:text-[21px]">{PHONE_DISPLAY}</span>
+              <span className="text-left">
+                <span className="block text-sm font-semibold text-white sm:text-base">Call Now</span>
+                <span className="block text-base font-semibold text-cyan-400 sm:text-xl">
+                  {PHONE_DISPLAY}
+                </span>
               </span>
             </a>
           </div>
 
           {/* Chat card */}
-          <div className="flex min-h-[46vh] w-full flex-col items-center justify-center rounded-[14px] bg-white px-4 py-6 shadow-[0px_0px_10px_0px_rgba(0,0,0,0.18)] md:min-h-[60vh] md:w-[40%] md:px-5">
+          <div className="flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
             <Image
               src="/images/live-agent/chat-icon.png"
               alt=""
               width={138}
               height={138}
-              className="mb-2 w-[40%] max-w-[110px] md:w-[48%]"
+              className="mb-4 w-[100px] md:w-[120px]"
             />
-            <h2 className="mb-1 text-center text-[28px] font-extrabold capitalize leading-[34px] text-black md:text-[34px] md:leading-[38px]">
-              Chat
-            </h2>
-            <h4 className="mb-3 text-center text-[18px] font-extrabold capitalize leading-[24px] text-[#FE6B2F] md:text-[20px] md:leading-[26px]">
+            <h2 className="mb-1 text-center text-2xl font-extrabold text-white md:text-3xl">Chat</h2>
+            <h4 className="mb-4 text-center text-base font-semibold text-cyan-400 md:text-lg">
               with a live agent
             </h4>
-            <div className="mx-auto mb-4 h-[2.5px] w-[14%] bg-[#FE6B2F]" />
-            <TawkChatButton
-              className="rounded-none border-0 bg-[#FE6B2F] px-9 py-3.5 text-[17px] font-medium text-white transition hover:bg-black md:text-[20px]"
-              style={{ fontFamily: 'var(--font-live-montserrat), Montserrat, sans-serif' }}
-            >
+            <div className="mx-auto mb-6 h-[2px] w-14 bg-cyan-400" />
+            <TawkChatButton className="rounded-xl border-0 bg-gradient-to-r from-blue-600 to-cyan-600 px-9 py-3.5 text-lg font-bold text-white transition hover:from-blue-500 hover:to-cyan-500">
               Chat Now
             </TawkChatButton>
           </div>
