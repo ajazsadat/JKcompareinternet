@@ -32,12 +32,13 @@ export default function Header() {
   ];
 
   const providerLinks = [
-    { name: 'Xfinity', href: '/providers/xfinity' },
-    { name: 'Frontier', href: '/providers/frontier' },
-    { name: 'Windstream', href: '/providers/windstream' },
+    { name: 'Xfinity', href: '/xfinity-plans' },
+    { name: 'Frontier', href: '/frontier-plans' },
+    { name: 'Windstream', href: '/windstream-plans' },
   ];
 
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
+  const isProviderPage = providerLinks.some((link) => pathname === link.href);
   const hideChrome =
     pathname === '/live-agent' || pathname === '/independent-support-help';
 
@@ -91,7 +92,7 @@ export default function Header() {
               <button 
                 onClick={() => setIsProvidersOpen(!isProvidersOpen)}
                 className={`text-sm font-medium transition-colors hover:text-blue-400 flex items-center ${
-                  pathname.includes('/providers') ? 'text-blue-400' : 'text-gray-300'
+                  isProviderPage ? 'text-blue-400' : 'text-gray-300'
                 }`}
               >
                 Providers
