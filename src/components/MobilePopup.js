@@ -1,18 +1,24 @@
 'use client';
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function MobilePopup() {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname() || '';
+  const hideChrome =
+    pathname === '/live-agent' || pathname === '/independent-support-help';
 
   useEffect(() => {
+    if (hideChrome) return undefined;
+
     const timer = setTimeout(() => {
       setIsOpen(true);
     }, 1500);
 
     return () => clearTimeout(timer);
-  }, []);
+  }, [hideChrome]);
 
-  if (!isOpen) return null;
+  if (hideChrome || !isOpen) return null;
 
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/70 md:hidden p-4">
