@@ -78,11 +78,14 @@ export default function XfinityPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0b0c10] via-transparent to-transparent"></div>
         <div className="relative z-10 text-center px-4 max-w-4xl mx-auto mt-10">
+          <p className="text-lg md:text-xl font-semibold text-cyan-300 mb-3 drop-shadow-md">
+            Xfinity Internet &amp; Cable Services
+          </p>
           <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 drop-shadow-lg">
             Compare <span className="text-blue-400">Xfinity</span> Plans With JKcompareinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
-            Enjoy high-speed internet options with Xfinity, designed for streaming, gaming, and remote work.
+            Call to get assistance comparing providers and finding the right Xfinity plan for your area.
           </p>
         </div>
       </section>
@@ -99,13 +102,13 @@ export default function XfinityPage() {
             Speak With A Live Agent
           </Link>
           <a
-            href="tel:8888799161"
+            href="tel:(888) 908-7350"
             className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-full font-semibold text-white border border-white/25 bg-white/5 hover:bg-white/10 transition"
           >
             <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
             </svg>
-            Call (888) 879-9161
+            Call (888) 908-7350
           </a>
         </div>
       </section>
@@ -168,10 +171,10 @@ export default function XfinityPage() {
                 <p className="text-xs text-gray-500 mt-2">Taxes, fees & equipment extra</p>
                 
                 <a
-                  href="tel:8888799161"
+                  href="tel:(888) 908-7350"
                   className="mt-6 w-full flex items-center justify-center text-center px-6 py-4 text-lg font-bold rounded-xl text-white bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 shadow-lg shadow-purple-500/25 transition-all transform hover:-translate-y-1"
                 >
-                  Compare & Call (888) 879-9161
+                  Compare & Call (888) 908-7350
                 </a>
                 <p className="text-xs text-gray-500 mt-4 text-center">
                   Offers, availability, speeds, and pricing vary by ZIP. We are an independent comparison and referral service and do not provide service directly.
@@ -204,10 +207,10 @@ export default function XfinityPage() {
 
       <section className="pb-16 px-4 text-center">
         <a
-          href="tel:8888799161"
+          href="tel:(888) 908-7350"
           className="inline-flex items-center justify-center px-8 py-4 rounded-full font-bold text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 transition shadow-[0_0_24px_rgba(6,182,212,0.3)]"
         >
-          Call Now: (888) 879-9161
+          Call Now: (888) 908-7350
         </a>
       </section>
 

@@ -80,7 +80,7 @@ export default function TermsConditions() {
         <section className="mb-8 pt-8 border-t border-white/10">
           <h2 className="text-2xl font-semibold text-white mb-4">Contact Us</h2>
           <ul className="space-y-2 font-light text-gray-400">
-            <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> (888) 879-9161</li>
+            <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> (888) 908-7350</li>
             <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> info@jkcompareinternet.online</li>
             <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> 19823 Younglake Blvd, Houston TX 77084</li>
           </ul>
