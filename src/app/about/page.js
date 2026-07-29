@@ -35,7 +35,7 @@ export default function About() {
               <div>
                 <h2 className="text-3xl font-bold text-white mb-4">What We Do</h2>
                 <p className="text-gray-400 leading-relaxed">
-                  We act as an independent comparison service, gathering the latest deals and packages from top providers like Xfinity, Frontier, and Windstream. We present them to you in a clear, easy-to-understand format so you can compare speeds, prices, and features side-by-side.
+                  We act as an independent comparison service, gathering the latest deals and packages from top providers like Xfinity, Frontier, Windstream, and Spectrum. We present them to you in a clear, easy-to-understand format so you can compare speeds, prices, and features side-by-side.
                 </p>
               </div>
 
