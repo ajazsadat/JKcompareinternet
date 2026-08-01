@@ -163,17 +163,17 @@ export default function SpectrumPage() {
         className="border-b border-white/10 bg-[#0b0c10]"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ul className="flex flex-wrap items-center gap-1 sm:gap-2 py-3" role="list">
+          <ul className="flex flex-wrap items-center justify-center gap-1 sm:gap-2 py-3" role="list">
             {spectrumTabs.map((tab, index) => {
               const isSelected = index === 0;
               return (
                 <li key={tab}>
                   <span
                     aria-current={isSelected ? 'page' : undefined}
-                    className={`inline-block px-3 sm:px-4 py-2 text-sm sm:text-base font-medium select-none cursor-default ${
+                    className={`inline-block px-3 sm:px-4 py-2 text-sm sm:text-base font-medium select-none cursor-pointer ${
                       isSelected
                         ? 'text-cyan-300 border-b-2 border-cyan-400'
-                        : 'text-gray-500 border-b-2 border-transparent'
+                        : 'text-gray-500 border-b-2 border-transparent hover:text-gray-300'
                     }`}
                   >
                     {tab}
