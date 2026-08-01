@@ -66,6 +66,33 @@ export default function XfinityPage() {
     },
   ];
 
+  const faqs = [
+    {
+      q: 'Is JKcompareinternet affiliated with Xfinity or Comcast?',
+      a: "No — we're an independent comparison resource, not a Comcast or Xfinity partner. We compare Xfinity alongside other providers so you can see how it stacks up.",
+    },
+    {
+      q: 'Where do I go for help with my current Xfinity account or bill?',
+      a: "That has to go through Xfinity directly — we don't have access to customer accounts. We can point you to Xfinity's official contact info if needed.",
+    },
+    {
+      q: 'What makes JKcompareinternet different from going straight to Xfinity?',
+      a: "We show you Xfinity's pricing next to other providers like AT&T and Spectrum, so you're comparing real numbers instead of just one company's pitch.",
+    },
+    {
+      q: 'Can you tell me what Xfinity plans are available at my address?',
+      a: "Yes — call or fill out the form and we'll walk you through what's offered specifically in your area.",
+    },
+    {
+      q: 'Are the prices shown here exactly what Xfinity charges?',
+      a: 'These are starting-point estimates based on publicly available rates. Final pricing depends on your address and current promotions — we confirm exact numbers on the call.',
+    },
+    {
+      q: 'Does it cost anything to compare plans with you?',
+      a: "No — there's no cost to call or request a comparison, and no obligation to switch.",
+    },
+  ];
+
   return (
     <div className="flex flex-col min-h-screen bg-[#0b0c10]">
       {/* Hero Section */}
@@ -215,6 +242,35 @@ export default function XfinityPage() {
         >
           Call Now: (888) 879-9161
         </a>
+      </section>
+
+      {/* FAQ section */}
+      <section id="faq" className="py-20 bg-[#0b0c10] border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-10 text-center">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            {faqs.map((faq) => (
+              <details
+                key={faq.q}
+                className="group bg-[#1f2833] border border-white/5 rounded-2xl overflow-hidden"
+              >
+                <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden px-6 py-5 flex justify-between items-center gap-4 focus:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/50">
+                  <h3 className="font-semibold text-lg text-white pr-2 m-0">{faq.q}</h3>
+                  <span className="flex-shrink-0 text-blue-400 transition-transform duration-300 group-open:rotate-180">
+                    <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </span>
+                </summary>
+                <div className="px-6 pb-6">
+                  <p className="text-gray-400 font-light leading-relaxed m-0">{faq.a}</p>
+                </div>
+              </details>
+            ))}
+          </div>
+        </div>
       </section>
 
       <ProviderWhyChoose providerName="Xfinity" />
