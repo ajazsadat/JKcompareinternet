@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
+import SpectrumTabs from '@/components/SpectrumTabs';
 
 export const metadata = {
   title: 'Spectrum Internet & Cable Deals | JKcompareinternet',
@@ -72,8 +73,6 @@ export default function SpectrumPage() {
         'Spectrum Mobile uses advanced wireless technology for fast, reliable 5G connectivity. Introductory promotions may offer added savings for new customers in select areas.',
     },
   ];
-
-  const spectrumTabs = ['About Spectrum', 'Internet', 'TV', 'Customer Service'];
 
   const faqs = [
     {
@@ -157,33 +156,7 @@ export default function SpectrumPage() {
         </div>
       </section>
 
-      {/* Non-clickable category tabs */}
-      <nav
-        aria-label="Spectrum page sections"
-        className="border-b border-white/10 bg-[#0b0c10]"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <ul className="flex flex-wrap items-center justify-center gap-1 sm:gap-2 py-3" role="list">
-            {spectrumTabs.map((tab, index) => {
-              const isSelected = index === 0;
-              return (
-                <li key={tab}>
-                  <span
-                    aria-current={isSelected ? 'page' : undefined}
-                    className={`inline-block px-3 sm:px-4 py-2 text-sm sm:text-base font-medium select-none cursor-pointer ${
-                      isSelected
-                        ? 'text-cyan-300 border-b-2 border-cyan-400'
-                        : 'text-gray-500 border-b-2 border-transparent hover:text-gray-300'
-                    }`}
-                  >
-                    {tab}
-                  </span>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </nav>
+      <SpectrumTabs />
 
       {/* Main Content */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
