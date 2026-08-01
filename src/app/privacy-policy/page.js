@@ -83,9 +83,19 @@ export default function PrivacyPolicy() {
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">8. Changes to This Policy</h2>
+          <h2 className="text-2xl font-semibold text-white mb-4">8. SMS &amp; Text Messaging</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We may update this policy periodically. The "Effective Date" at the top will indicate changes.
+            By providing your phone number, you consent to receive text messages and calls from
+            JKcompareinternet and its service partners regarding your inquiry. Message and data
+            rates may apply. Consent is not a condition of purchase. You can opt out at any time by
+            replying STOP.
+          </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-white mb-4">9. Changes to This Policy</h2>
+          <p className="mb-4 leading-relaxed font-light">
+            We may update this policy periodically. The &quot;Effective Date&quot; at the top will indicate changes.
           </p>
         </section>
 
