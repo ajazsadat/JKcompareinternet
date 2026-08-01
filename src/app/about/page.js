@@ -48,7 +48,7 @@ export default function About() {
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
-                    <span><strong>Expert Assistance:</strong> Our dedicated team is just a phone call away to help answer your questions and guide you through the setup process.</span>
+                    <span><strong>Expert Assistance:</strong> Our dedicated team is just a phone call away to help answer your questions and point you toward the right plan for your needs.</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path></svg>
