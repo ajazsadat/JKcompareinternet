@@ -33,8 +33,8 @@ export default function Header() {
 
   const providerLinks = [
     { name: 'Xfinity', href: '/xfinity-plans' },
-    { name: 'Frontier', href: '/frontier-plans' },
-    { name: 'Windstream', href: '/windstream-plans' },
+    // { name: 'Frontier', href: '/frontier-plans' },
+    // { name: 'Windstream', href: '/windstream-plans' },
     { name: 'Spectrum', href: '/spectrum-plans' },
   ];
 
