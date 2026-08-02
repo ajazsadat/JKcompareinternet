@@ -28,12 +28,10 @@ export default function IndependentSupportHelpContent({ className = '' }) {
   return (
     <div className={`min-h-screen w-full bg-[#0b0c10] px-4 py-10 sm:py-14 ${className}`}>
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center">
-        <h1 className="mb-4 max-w-4xl text-center text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl">
-          Speak with a <span className="text-cyan-400">live agent</span>
+        <h1 className="mb-8 max-w-4xl text-center text-3xl font-extrabold tracking-tight text-white sm:mb-10 sm:text-4xl md:text-5xl">
+          Call now and we&apos;ll walk you through your{' '}
+          <span className="text-cyan-400">options.</span>
         </h1>
-        <p className="mb-8 max-w-2xl text-center text-base text-gray-400 sm:mb-10 sm:text-lg">
-          Call now and we&apos;ll walk you through your options.
-        </p>
 
         <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
           <div className="option-card flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
