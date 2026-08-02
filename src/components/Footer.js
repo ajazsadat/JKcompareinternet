@@ -91,7 +91,7 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} JKcompareinternet. All rights reserved.
           </p>
           <p className="text-xs text-gray-500 mt-4 md:mt-0 max-w-2xl text-right md:text-left">
-            JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+            JKcompareinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
           </p>
         </div>
       </div>
