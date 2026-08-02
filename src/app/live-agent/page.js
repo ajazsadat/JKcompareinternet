@@ -1,13 +1,14 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Live Agent | JKcompareinternet',
   description:
-    "Call now and we'll walk you through your options. Speak with a live agent for plan comparison help.",
+    "Call now and we'll walk you through your options. Speak with a live agent or send us a message.",
 };
 
 const PHONE_DISPLAY = '(888) 879-9161';
-const PHONE_HREF = 'tel:(888) 879-9161';
+const PHONE_HREF = 'tel:8888799161';
 
 function CallIcon({ gradientId = 'liveAgentCallGrad' }) {
   return (
@@ -29,21 +30,6 @@ function CallIcon({ gradientId = 'liveAgentCallGrad' }) {
   );
 }
 
-function CallNowButton({ gradientId }) {
-  return (
-    <a
-      href={PHONE_HREF}
-      className="inline-flex items-center justify-start gap-3 rounded-xl border border-cyan-400/40 bg-[#0b0c10] px-4 py-3 no-underline transition hover:border-cyan-300 hover:bg-[#111827]"
-    >
-      <CallIcon gradientId={gradientId} />
-      <span className="text-left">
-        <span className="block text-sm font-semibold text-white sm:text-base">Call Now</span>
-        <span className="block text-base font-semibold text-cyan-400 sm:text-xl">{PHONE_DISPLAY}</span>
-      </span>
-    </a>
-  );
-}
-
 export default function LiveAgentPage() {
   return (
     <div className="min-h-screen w-full bg-[#0b0c10] px-4 py-10 sm:py-14">
@@ -54,27 +40,36 @@ export default function LiveAgentPage() {
         </h1>
 
         <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
-          {/* Phone Call card */}
-          <div className="flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
+          <div className="option-card flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
             <Image
-              src="/images/live-agent/phone-icon.png"
+              src="/images/support/human-agent-icon.png"
               alt=""
-              width={138}
-              height={138}
+              width={218}
+              height={216}
               className="mb-4 w-[100px] md:w-[120px]"
             />
-            <h2 className="mb-1 text-center text-2xl font-extrabold text-white md:text-3xl">
-              Phone Call
-            </h2>
-            <h4 className="mb-4 text-center text-base font-semibold text-cyan-400 md:text-lg">
-              to speak with a live agent
-            </h4>
+            <h3 className="mb-2 text-center text-2xl font-extrabold text-white md:text-3xl">
+              Speak With A Live Agent
+            </h3>
+            <p className="mb-4 max-w-sm text-center text-sm text-gray-400 md:text-base">
+              Call now and we&apos;ll walk you through your options.
+            </p>
             <div className="mx-auto mb-6 h-[2px] w-14 bg-cyan-400" />
-            <CallNowButton gradientId="liveAgentCallGradPhone" />
+            <a
+              href={PHONE_HREF}
+              className="inline-flex items-center justify-start gap-3 rounded-xl border border-cyan-400/40 bg-[#0b0c10] px-4 py-3 no-underline transition hover:border-cyan-300 hover:bg-[#111827]"
+            >
+              <CallIcon gradientId="liveAgentCallGradPhone" />
+              <span className="text-left">
+                <span className="block text-sm font-semibold text-white sm:text-base">Call Now</span>
+                <span className="block text-base font-semibold text-cyan-400 sm:text-xl">
+                  {PHONE_DISPLAY}
+                </span>
+              </span>
+            </a>
           </div>
 
-          {/* Automated Support Line card */}
-          <div className="flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
+          <div className="option-card flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
             <Image
               src="/images/live-agent/chat-icon.png"
               alt=""
@@ -82,11 +77,19 @@ export default function LiveAgentPage() {
               height={138}
               className="mb-4 w-[100px] md:w-[120px]"
             />
-            <h2 className="mb-4 text-center text-2xl font-extrabold text-white md:text-3xl">
-              Automated Support Line
-            </h2>
+            <h3 className="mb-2 text-center text-2xl font-extrabold text-white md:text-3xl">
+              Send Us a Message
+            </h3>
+            <p className="mb-4 max-w-sm text-center text-sm text-gray-400 md:text-base">
+              Prefer not to call? Fill out our contact form and we&apos;ll follow up.
+            </p>
             <div className="mx-auto mb-6 h-[2px] w-14 bg-cyan-400" />
-            <CallNowButton gradientId="liveAgentCallGradAuto" />
+            <Link
+              href="/contact"
+              className="inline-flex items-center justify-center rounded-xl px-6 py-3.5 font-semibold text-white no-underline bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 transition"
+            >
+              Go to Contact Form
+            </Link>
           </div>
         </div>
       </div>
