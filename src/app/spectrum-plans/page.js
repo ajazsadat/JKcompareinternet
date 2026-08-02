@@ -54,23 +54,27 @@ export default function SpectrumPage() {
   const services = [
     {
       title: 'High-Speed Internet',
+      icon: '/images/spectrum/high-speed-internet.png',
       description:
-        'Reliable internet with speeds starting around 100 Mbps, capable of supporting streaming, gaming, smart home devices, and remote work. Higher-speed tiers are available in select areas.',
+        'Reliable internet with speeds starting around 100 Mbps, capable of supporting streaming, gaming, smart home devices, and remote work. Higher-speed tiers are available in select areas for households with heavy usage.',
     },
     {
       title: 'Cable TV',
+      icon: '/images/spectrum/cable-tv.png',
       description:
-        'A wide selection of channels, on-demand shows, and entertainment packages. Flexible bundles help you pick content that matches your lifestyle.',
+        'A wide selection of channels, on-demand shows, and entertainment packages for every taste. Flexible bundles allow viewers to pick content that matches their lifestyle.',
     },
     {
       title: 'Home Phone',
+      icon: '/images/spectrum/home-phone.png',
       description:
-        'Nationwide calling, voicemail, and dependable connections make Spectrum phone service a practical option for families who prefer a traditional home line.',
+        "Nationwide calling, voicemail, and dependable connections make Spectrum's phone service a practical option for families and individuals who prefer a traditional home line.",
     },
     {
       title: 'Mobile Services',
+      icon: '/images/spectrum/mobile-services.png',
       description:
-        'Spectrum Mobile uses advanced wireless technology for fast, reliable 5G connectivity. Introductory promotions may offer added savings for new customers in select areas.',
+        'Spectrum Mobile leverages advanced wireless technology to provide fast and reliable 5G connectivity. Introductory promotions may offer added savings for new customers in select areas.',
     },
   ];
 
@@ -248,28 +252,40 @@ export default function SpectrumPage() {
           ))}
         </div>
 
-        {/* Services at a Glance */}
-        <div className="mt-4">
-          <h2 className="text-3xl font-bold text-white mb-4 text-center">Spectrum Services at a Glance</h2>
-          <p className="text-gray-400 max-w-3xl mx-auto text-sm text-center mb-10">
-            Spectrum offers a variety of services to meet everyday household needs. Here are four key
-            areas we highlight.
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {services.map((service) => (
-              <div
-                key={service.title}
-                className="bg-[#0b0c10] rounded-2xl p-6 border border-white/10 hover:border-blue-500/50 transition-all duration-300 shadow-lg"
-              >
-                <h3 className="text-xl font-bold text-white mb-3">{service.title}</h3>
-                <p className="text-gray-300 text-sm leading-relaxed">{service.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </section>
 
       <ProviderComparisonTable />
+
+      {/* Spectrum Services at a Glance */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 text-center">
+          Spectrum Services at a Glance
+        </h2>
+        <p className="text-gray-400 max-w-3xl mx-auto text-sm md:text-base text-center mb-10">
+          Spectrum offers a variety of services to meet everyday household needs. Here are four key
+          areas we highlight.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {services.map((service) => (
+            <div
+              key={service.title}
+              className="bg-[#1f2833] rounded-2xl p-6 md:p-8 border border-white/10 hover:border-cyan-400/40 transition-all duration-300 shadow-lg"
+            >
+              <Image
+                src={service.icon}
+                alt=""
+                width={90}
+                height={90}
+                className="mb-4 w-[72px] h-[72px] object-contain"
+              />
+              <h3 className="text-xl md:text-2xl font-bold text-white mb-3">{service.title}</h3>
+              <p className="text-gray-300 text-sm md:text-base leading-relaxed">
+                {service.description}
+              </p>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section className="pb-16 px-4 text-center">
         <a
