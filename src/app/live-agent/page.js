@@ -3,7 +3,7 @@ import Image from 'next/image';
 export const metadata = {
   title: 'Live Agent | JKcompareinternet',
   description:
-    'How would you like to connect for internet services and assistance? Speak with a live agent or use our automated support line.',
+    "Speak with a live agent — call now and we'll walk you through your options.",
 };
 
 const PHONE_DISPLAY = '(888) 879-9161';
@@ -48,10 +48,12 @@ export default function LiveAgentPage() {
   return (
     <div className="min-h-screen w-full bg-[#0b0c10] px-4 py-10 sm:py-14">
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center">
-        <h1 className="mb-8 max-w-4xl text-center text-3xl font-extrabold tracking-tight text-white sm:mb-10 sm:text-4xl md:text-5xl">
-          How would you like to connect for Internet{' '}
-          <span className="text-cyan-400">Services and Assistance?</span>
+        <h1 className="mb-4 max-w-4xl text-center text-3xl font-extrabold tracking-tight text-white sm:text-4xl md:text-5xl">
+          Speak with a <span className="text-cyan-400">live agent</span>
         </h1>
+        <p className="mb-8 max-w-2xl text-center text-base text-gray-400 sm:mb-10 sm:text-lg">
+          Call now and we&apos;ll walk you through your options.
+        </p>
 
         <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
           {/* Phone Call card */}
