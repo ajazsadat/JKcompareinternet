@@ -43,6 +43,20 @@ export default function Header() {
   const hideChrome =
     pathname === '/live-agent' || pathname === '/independent-support-help';
 
+  const DEFAULT_DISCLAIMER =
+    'Jari & Kinza Corporation, operating JKcompareinternet.online — helps you compare top internet and TV plans from leading and trusted providers available in your area.';
+  const SPECTRUM_DISCLAIMER =
+    'JKcompareinternet is an independent comparison platform — not Spectrum, Charter, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.';
+  const XFINITY_DISCLAIMER =
+    'JKcompareinternet is an independent comparison platform — not Xfinity, Comcast, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.';
+
+  const headerDisclaimer =
+    pathname === '/spectrum-plans'
+      ? SPECTRUM_DISCLAIMER
+      : pathname === '/xfinity-plans'
+        ? XFINITY_DISCLAIMER
+        : DEFAULT_DISCLAIMER;
+
   if (hideChrome) {
     return null;
   }
@@ -51,8 +65,8 @@ export default function Header() {
   if (!mounted) {
     return (
       <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/5">
-        <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10">
-          JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+        <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
+          {headerDisclaimer}
         </div>
         <div className="h-20"></div>
       </header>
@@ -62,7 +76,7 @@ export default function Header() {
   return (
     <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
       <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
-        JKcompareinternet is an independent comparison platform — not Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+        {headerDisclaimer}
       </div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">

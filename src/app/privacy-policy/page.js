@@ -14,10 +14,13 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-white mb-4">What This Policy Covers</h2>
           <p className="mb-4 leading-relaxed font-light">
-            JKcompareinternet ("we," "us," "our") manages this website and associated promotional brands. When we refer to our "Services," we mean the websites, marketing campaigns, and offers we provide through our online channels.
+            JKcompareinternet (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;), operated by Jari &amp; Kinza Corporation, manages this website and associated promotional brands. When we refer to our &quot;Services,&quot; we mean the websites, marketing campaigns, and offers we provide through our online channels.
           </p>
           <p className="mb-4 leading-relaxed font-light">
-            This Privacy Policy explains how we collect, use, and protect your personal data (also called "personal information"). It also outlines the security measures we use to safeguard your data, and the rights and choices available to you.
+            JKcompareinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+          </p>
+          <p className="mb-4 leading-relaxed font-light">
+            This Privacy Policy explains how we collect, use, and protect your personal data (also called &quot;personal information&quot;). It also outlines the security measures we use to safeguard your data, and the rights and choices available to you.
           </p>
           <p className="mb-4 leading-relaxed font-light">
             Our Services may contain links to third-party websites. We do not control those websites and encourage you to review their privacy policies separately. Our Services are not intended for children under the age of 16, and we do not knowingly collect personal information from minors.
