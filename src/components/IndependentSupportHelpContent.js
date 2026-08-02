@@ -36,10 +36,10 @@ export default function IndependentSupportHelpContent({ className = '' }) {
         <div className="grid w-full grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
           <div className="option-card flex min-h-[420px] flex-col items-center justify-center rounded-2xl border border-white/10 bg-[#1f2833] px-6 py-8 shadow-xl">
             <Image
-              src="/images/live-agent/phone-icon.png"
+              src="/images/support/human-agent-icon.png"
               alt=""
-              width={138}
-              height={138}
+              width={218}
+              height={216}
               className="mb-4 w-[100px] md:w-[120px]"
             />
             <h3 className="mb-2 text-center text-2xl font-extrabold text-white md:text-3xl">
