@@ -90,8 +90,8 @@ export default function IndependentSupportHelpContent({ className = '' }) {
         <p className="page-disclaimer mt-10 max-w-3xl text-center text-sm leading-relaxed text-gray-400 md:mt-12">
           JKcompareinternet is an independent comparison resource. We do not provide internet, TV,
           or phone services directly, and we are not affiliated with Spectrum, Xfinity, AT&amp;T,
-          Verizon, or any other carrier. For billing or existing account support, please contact
-          your provider directly.
+          Verizon, Frontier, Windstream, Brightspeed, or any other carrier. For billing or
+          existing account support, please contact your provider directly.
         </p>
       </div>
     </div>
