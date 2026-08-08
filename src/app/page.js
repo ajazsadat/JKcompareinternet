@@ -38,7 +38,7 @@ export default function Home() {
     },
     {
       q: "How do I get started?",
-      a: "Simply call our experts to view available internet providers, compare plans, and lock in available discounts in your area. Our team can help you by phone for personalized assistance."
+      a: "Simply call our experts to view available internet providers, compare plans, and lock in available discounts in your area. Our team can guide you by phone with personalized comparisons."
     },
     {
       q: "How is installation arranged once I select a plan?",
@@ -70,7 +70,7 @@ export default function Home() {
             Compare Multiple <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Internet Plans</span> In One Place.
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-            JKcompareinternet is an independent plan comparison and enrollment assistance website. We do not provide internet service directly.
+            JKcompareinternet is a comparison and referral website. We do not provide internet service directly.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">TV & Streaming</h3>
               <p className="text-gray-400 font-light leading-relaxed mb-6 flex-grow">
-                Explore TV and streaming plans in one place. Compare packages from participating providers, including options for movies, shows, sports, and live channels. JKcompareinternet helps you review available plans and choose the option that fits your location and viewing preferences.
+                Explore TV and streaming plans in one place. Compare packages from participating providers, including options for movies, shows, sports, and live channels. JKcompareinternet guides you through available plans so you can choose the option that fits your location and viewing preferences.
               </p>
             </div>
 
@@ -113,7 +113,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">High-Speed Internet</h3>
               <p className="text-gray-400 font-light leading-relaxed mb-6 flex-grow">
-                Compare fiber internet plans from participating providers. JKcompareinternet helps you review available options for browsing, streaming, gaming, and remote work. We guide you through plan details and connect you with providers so you can choose an option that fits your needs.
+                Compare fiber internet plans from participating providers. JKcompareinternet shows you available options for browsing, streaming, gaming, and remote work. We guide you through plan details and connect you with providers so you can choose an option that fits your needs.
               </p>
             </div>
 
@@ -156,7 +156,7 @@ export default function Home() {
                   </div>
                   <div className="ml-4">
                     <h4 className="text-lg font-semibold text-white">One-Stop Solution</h4>
-                    <p className="mt-1 text-gray-400 font-light">Compare Internet providers, explore available offers, and get help enrolling—all in one place.</p>
+                    <p className="mt-1 text-gray-400 font-light">Compare Internet providers, explore available offers, and connect with a provider—all in one place.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
@@ -177,8 +177,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-semibold text-white">Personalized Enrollment Support</h4>
-                    <p className="mt-1 text-gray-400 font-light">Not sure which option fits your needs? Our agents can help explain available plans and connect you with the right provider to get started.</p>
+                    <h4 className="text-lg font-semibold text-white">Personalized Comparison Guidance</h4>
+                    <p className="mt-1 text-gray-400 font-light">Not sure which option fits your needs? Our agents can explain available plans and connect you with the right provider to get started.</p>
                   </div>
                 </li>
               </ul>
@@ -190,11 +190,11 @@ export default function Home() {
                 
                 <h3 className="text-3xl font-bold text-white mb-6 relative z-10">Looking for High-Speed Internet Plan?</h3>
                 <p className="text-gray-300 mb-8 font-light leading-relaxed relative z-10">
-                  We’re Here to Provide Guidance and Help You Compare Options From Participating Providers. Let our experienced agents guide you through the process.
+                  We’re Here to Guide You Through Comparing Options From Participating Providers. Let our experienced agents guide you through the process.
                 </p>
                 
                 <div className="relative z-10">
-                  <p className="text-sm text-blue-400 font-semibold uppercase tracking-wider mb-2">Call for immediate assistance</p>
+                  <p className="text-sm text-blue-400 font-semibold uppercase tracking-wider mb-2">Call to compare your options now</p>
                   <a
                     href="tel:(888) 879-9161"
                     className="flex items-center justify-center text-center w-full px-8 py-5 text-xl font-bold rounded-xl text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 shadow-lg transition-all transform hover:-translate-y-1"
