@@ -7,10 +7,13 @@ import { submitLead } from '@/lib/submitLead';
 export default function ProviderWhyChoose({
   providerName,
   introLead,
+  servicesLead,
   ctaLabel,
 }) {
   const availabilityLabel = ctaLabel || `Check ${providerName} Availability In Your Area`;
   const leadText = introLead || 'Call to get assistance comparing providers and plans.';
+  const servicesText =
+    servicesLead || `Getting ${providerName} Internet & Cable Services`;
   const [status, setStatus] = useState('idle');
   const [error, setError] = useState('');
 
@@ -48,8 +51,7 @@ export default function ProviderWhyChoose({
               Why Choose JKcompareinternet?
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              {leadText} Getting {providerName} Internet
-              &amp; Cable Services is easier with JKcompareinternet — we help you compare options,
+              {leadText} {servicesText} is easier with JKcompareinternet — we help you compare options,
               understand features and pricing, and choose what works best for your home or business.
             </p>
 
