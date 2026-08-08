@@ -14,7 +14,7 @@ export default function SpectrumPage() {
   const highlights = [
     'Wide Nationwide Coverage – Available in many states for residential internet and TV',
     'Reliable High-Speed Internet – Fiber-powered infrastructure for streaming, remote work, and smart homes',
-    'Accessible Customer Assistance – Multiple channels for Spectrum customer service and technical help',
+    'Provider Information Access – We help you find contact details and information about Spectrum\'s official support channels',
     'No Data Caps or Long-Term Contracts – Many plans offer flexibility with no annual contracts',
   ];
 
@@ -125,7 +125,7 @@ export default function SpectrumPage() {
             Compare <span className="text-blue-400">Spectrum</span> Plans With JKcompareinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
-            Call to get assistance comparing providers and finding the right Spectrum plan for your area.
+            Call to compare providers and find the right Spectrum plan for your area.
           </p>
         </div>
       </section>
@@ -325,7 +325,11 @@ export default function SpectrumPage() {
         </div>
       </section>
 
-      <ProviderWhyChoose providerName="Spectrum" />
+      <ProviderWhyChoose
+        providerName="Spectrum"
+        introLead="Call to compare providers and plans."
+        ctaLabel="See Local Provider Options"
+      />
     </div>
   );
 }
