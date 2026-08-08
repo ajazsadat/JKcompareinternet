@@ -86,12 +86,31 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="mt-12 border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} JKcompareinternet. All rights reserved.
-          </p>
-          <p className="text-xs text-gray-500 mt-4 md:mt-0 max-w-2xl text-right md:text-left">
+        <div className="mt-12 border-t border-white/10 pt-8">
+          <p className="text-xs text-gray-500 max-w-3xl">
             JKcompareinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+          </p>
+        </div>
+      </div>
+
+      <div className="mt-8 bg-blue-700">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row justify-between items-center gap-2">
+          <Link
+            href="/#disclaimer"
+            className="text-sm sm:text-base font-semibold text-white hover:text-cyan-100 transition-colors"
+            onClick={(event) => {
+              if (pathname !== '/') return;
+              const section = document.getElementById('disclaimer');
+              if (!section) return;
+              event.preventDefault();
+              section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              window.history.replaceState(null, '', '/#disclaimer');
+            }}
+          >
+            Disclaimer
+          </Link>
+          <p className="text-sm text-white/90">
+            &copy; {new Date().getFullYear()} JKcompareinternet. All rights reserved.
           </p>
         </div>
       </div>
