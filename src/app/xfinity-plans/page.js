@@ -72,7 +72,7 @@ export default function XfinityPage() {
       a: "No — we're an independent comparison resource, not a Comcast or Xfinity partner. We compare Xfinity alongside other providers so you can see how it stacks up.",
     },
     {
-      q: 'Where do I go for help with my current Xfinity account or bill?',
+      q: 'Where do I go for questions about my current Xfinity account or bill?',
       a: "That has to go through Xfinity directly — we don't have access to customer accounts. We can point you to Xfinity's official contact info if needed.",
     },
     {
@@ -113,7 +113,7 @@ export default function XfinityPage() {
             Compare <span className="text-blue-400">Xfinity</span> Plans With JKcompareinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
-            Call to get assistance comparing providers and finding the right Xfinity plan for your area.
+            Call to compare providers and find the right Xfinity plan for your area.
           </p>
         </div>
       </section>
@@ -253,7 +253,11 @@ export default function XfinityPage() {
         </div>
       </section>
 
-      <ProviderWhyChoose providerName="Xfinity" />
+      <ProviderWhyChoose
+        providerName="Xfinity"
+        introLead="Call to compare providers and plans."
+        ctaLabel="See Local Provider Options"
+      />
     </div>
   );
 }
