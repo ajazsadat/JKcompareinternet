@@ -84,7 +84,7 @@ export default function SpectrumPage() {
       a: "No. JKcompareinternet operates independently of Spectrum, Charter, and every other provider listed on this site. We're a comparison resource, not a branch of any carrier.",
     },
     {
-      q: 'Where do I go if I need help with my existing Spectrum service or bill?',
+      q: 'Where do I go for questions about my existing Spectrum service?',
       a: "That has to go through Spectrum directly, since we don't have access to customer accounts. What we can do is point you to the right Spectrum contact number and, if you're open to it, show you what else is available in your area.",
     },
     {
@@ -141,7 +141,7 @@ export default function SpectrumPage() {
               <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
               </svg>
-              Speak With A Live Agent
+              Speak With A Comparison Specialist
             </Link>
             <a
               href="tel:8888799161"
@@ -328,6 +328,7 @@ export default function SpectrumPage() {
       <ProviderWhyChoose
         providerName="Spectrum"
         introLead="Call to compare providers and plans."
+        servicesLead="Comparing Internet & Cable Options"
         ctaLabel="See Local Provider Options"
       />
     </div>
