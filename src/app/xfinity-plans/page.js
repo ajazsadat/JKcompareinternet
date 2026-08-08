@@ -72,7 +72,7 @@ export default function XfinityPage() {
       a: "No — we're an independent comparison resource, not a Comcast or Xfinity partner. We compare Xfinity alongside other providers so you can see how it stacks up.",
     },
     {
-      q: 'Where do I go for help with my current Xfinity account or bill?',
+      q: 'Where do I go for questions about my current Xfinity account or bill?',
       a: "That has to go through Xfinity directly — we don't have access to customer accounts. We can point you to Xfinity's official contact info if needed.",
     },
     {
@@ -113,7 +113,7 @@ export default function XfinityPage() {
             Compare <span className="text-blue-400">Xfinity</span> Plans With JKcompareinternet
           </h1>
           <p className="text-xl md:text-2xl text-gray-200 drop-shadow-md">
-            Call to get assistance comparing providers and finding the right Xfinity plan for your area.
+            Call to compare providers and find the right Xfinity plan for your area.
           </p>
         </div>
       </section>
@@ -127,7 +127,7 @@ export default function XfinityPage() {
             <svg className="w-5 h-5 shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24" aria-hidden="true">
               <path strokeLinecap="round" strokeLinejoin="round" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
             </svg>
-            Speak With A Live Agent
+            Speak With A Comparison Specialist
           </Link>
           <a
             href="tel:(888) 879-9161"
@@ -253,7 +253,12 @@ export default function XfinityPage() {
         </div>
       </section>
 
-      <ProviderWhyChoose providerName="Xfinity" />
+      <ProviderWhyChoose
+        providerName="Xfinity"
+        introLead="Call to compare providers and plans."
+        servicesLead="Comparing Internet & Cable Options"
+        ctaLabel="See Local Provider Options"
+      />
     </div>
   );
 }
