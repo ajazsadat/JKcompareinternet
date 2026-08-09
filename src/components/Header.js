@@ -41,7 +41,7 @@ export default function Header() {
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
   const isProviderPage = providerLinks.some((link) => pathname === link.href);
   const hideChrome =
-    pathname === '/live-agent' || pathname === '/independent-support-help';
+    pathname === '/live-agent' || pathname === '/compare-internet-options';
 
   const DEFAULT_DISCLAIMER =
     'Jari & Kinza Corporation, operating JKcompareinternet.online — helps you compare top internet and TV plans from leading and trusted providers available in your area.';

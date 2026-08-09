@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 export default function Footer() {
   const pathname = usePathname() || '';
   const hideChrome =
-    pathname === '/live-agent' || pathname === '/independent-support-help';
+    pathname === '/live-agent' || pathname === '/compare-internet-options';
 
   if (hideChrome) {
     return null;
@@ -42,7 +42,7 @@ export default function Footer() {
                 <Link href="/live-agent" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Live Agent</Link>
               </li>
               <li>
-                <Link href="/independent-support-help" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Independent Support Help</Link>
+                <Link href="/compare-internet-options" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Compare Internet Options</Link>
               </li>
               <li>
                 <Link href="/privacy-policy" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Privacy Policy</Link>

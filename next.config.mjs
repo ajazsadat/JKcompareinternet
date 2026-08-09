@@ -3,6 +3,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/independent-support-help',
+        destination: '/compare-internet-options',
+        permanent: true,
+      },
+      {
         source: '/providers/xfinity',
         destination: '/xfinity-plans',
         permanent: true,
