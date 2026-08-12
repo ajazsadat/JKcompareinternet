@@ -20,10 +20,6 @@ export default function Footer() {
             <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-300">
               JKcompareinternet
             </span>
-            <p className="mt-4 text-sm text-gray-400 max-w-xs">
-              jkcompareinternet.online, operated by Jari &amp; Kinza Corporation, helps you compare
-              top internet and TV plans from leading and trusted providers available in your area.
-            </p>
           </div>
           
           <div>
