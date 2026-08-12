@@ -70,7 +70,7 @@ export default function XfinityPage() {
   const faqs = [
     {
       q: 'Is JKcompareinternet affiliated with Xfinity or Comcast?',
-      a: "No — we're an independent comparison resource, not a Comcast or Xfinity partner. We compare Xfinity alongside other providers so you can see how it stacks up.",
+      a: "No — jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent authorized reseller. We are not Comcast or Xfinity. We help you compare Xfinity alongside other providers so you can see how it stacks up, and we do not sell or manage Xfinity accounts.",
     },
     {
       q: 'Where do I go for questions about my current Xfinity account or bill?',
@@ -214,7 +214,9 @@ export default function XfinityPage() {
                   Compare & Call (888) 879-9161
                 </a>
                 <p className="text-xs text-gray-500 mt-4 text-center">
-                  Offers, availability, speeds, and pricing vary by ZIP. We are an independent comparison and referral service and do not provide service directly.
+                  Offers, availability, speeds, and pricing vary by ZIP. jkcompareinternet.online
+                  is operated by Jari &amp; Kinza Corporation, an independent authorized reseller.
+                  We do not provide Xfinity service directly.
                 </p>
               </div>
             </div>

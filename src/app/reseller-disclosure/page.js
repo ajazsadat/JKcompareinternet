@@ -18,10 +18,9 @@ export default function ResellerDisclosure() {
 
         <section className="mb-8 space-y-4">
           <p className="leading-relaxed font-light">
-            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an
-            independent authorized sales partner and reseller that helps customers
-            compare, select, and activate broadband, wireless, and digital services
-            across the United States.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an independent
+            authorized sales partner and reseller that helps customers compare, select, and activate
+            broadband, wireless, and digital services across the United States.
           </p>
           <p className="leading-relaxed font-light">
             We are not owned, operated, or controlled by any internet service

@@ -44,7 +44,7 @@ export default function Header() {
     pathname === '/live-agent' || pathname === '/compare-internet-options';
 
   const DEFAULT_DISCLAIMER =
-    'jkcompareinternet.online is operated by Jari & Kinza Corporation. We help you compare top internet and TV plans from leading and trusted providers available in your area.';
+    'jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent authorized reseller. We help you compare, choose, and activate internet and TV plans from leading providers available in your area.';
   const SPECTRUM_DISCLAIMER =
     'Why Choose JKcompareinternet? We help you compare top internet and TV plans from leading and trusted providers available in your area. JKcompareinternet is an independent resource. We do not sell or manage Spectrum accounts; all information is for guidance only.';
   const XFINITY_DISCLAIMER =

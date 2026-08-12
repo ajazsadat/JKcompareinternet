@@ -21,28 +21,28 @@ export default function Home() {
       a: "jkcompareinternet.online is operated by Jari & Kinza Corporation. We partner with a network of licensed resellers, authorized retailers, and master-dealer distributors representing leading U.S. telecom and internet service brands. Availability and offers vary by ZIP code — call us at (888) 879-9161 to view current plan options in your area."
     },
     {
-      q: "Do you charge for your services?",
-      a: "Our services are free to you. We may receive compensation from providers or referral partners when you sign up through our referral system — but there is no additional cost to you."
+      q: "How can I qualify for special promotions or discounts?",
+      a: "Promotional eligibility is determined by each provider’s individual policies, location, and credit requirements. During your free consultation, our representatives will outline available promotions, qualifying terms, and applicable timelines — with absolutely no purchase obligation."
     },
     {
       q: "What does it mean to be an “authorized reseller” or “partner network”?",
       a: "We are not the direct provider of internet, wireless, or cable services. jkcompareinternet.online is operated by Jari & Kinza Corporation as an authorized reseller and licensed retailer for multiple carrier and service networks across the U.S. This means we’re approved to market, compare, and facilitate service orders through official partner and master-dealer programs — giving customers access to more plan options in one place."
     },
     {
-      q: "What types of internet service are available?",
-      a: "You may have access to one or more of these internet types: Fiber Internet (High speeds, ideal for streaming and gaming), Cable Internet (Reliable and widely available), DSL Internet (Affordable option for light users), and Fixed Wireless (Available in select areas)."
+      q: "Do you charge for your services?",
+      a: "Our consultation and comparison assistance is free to you. We may receive a commission or referral fee from providers when a customer activates a service through our platform — but there is no additional cost to you, and this does not influence pricing or our recommendations."
     },
     {
-      q: "Do internet providers offer special promotions or discounts?",
-      a: "Yes! Many providers offer introductory pricing, free installation, equipment deals, gift cards, and bundle discounts. We help you review current offers available in your area so you can save money."
-    },
-    {
-      q: "How do I get started?",
-      a: "Simply call to view available internet providers, compare plans, and lock in available discounts in your area. We'll guide you through the comparison over the phone."
+      q: "Are there any installation or equipment costs?",
+      a: "Any setup, equipment, or activation fees are determined by the selected provider and plan type. Before you proceed with any order, our team will clearly present all related costs, fees, and requirements as outlined by the provider."
     },
     {
       q: "How is installation arranged once I select a plan?",
-      a: "Once you confirm your selection, your chosen provider will handle scheduling and installation directly. Timelines vary by provider, location, and technician availability."
+      a: "Once you confirm your selection, our team helps coordinate the process with your chosen provider’s certified installation partner. Timelines vary by provider, location, and technician availability."
+    },
+    {
+      q: "Who should I contact for support after installation?",
+      a: "After your service has been successfully activated, all technical support, billing, and account management are handled directly by your selected provider. You can always reach us at (888) 879-9161 for general questions, plan guidance, or help connecting with your provider’s support team."
     }
   ];
 
@@ -64,13 +64,15 @@ export default function Home() {
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-10">
           <div className="inline-flex items-center px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium mb-8">
             <span className="flex w-2 h-2 rounded-full bg-blue-400 animate-pulse mr-2"></span>
-            Independent Plan Comparison
+            Independent Authorized Reseller
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight drop-shadow-lg">
-            Compare Multiple <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Internet Plans</span> In One Place.
+            Find Reliable <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Internet, TV &amp; Wireless</span> Plans Near You
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-3xl mx-auto font-light leading-relaxed">
-            JKcompareinternet is a comparison and referral website. We do not provide internet service directly.
+            If your current connection is slow, inconsistent, or just too expensive — we can help.
+            JKcompareinternet connects you with trusted U.S. broadband and wireless providers so you
+            can compare, choose, and activate the plan that best fits your home or business needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -159,7 +161,9 @@ export default function Home() {
                 Compare The Tv & Internet Providers <span className="text-blue-400">That Suit Your Needs</span>
               </h2>
               <p className="text-gray-300 text-lg mb-10 font-light leading-relaxed">
-                Looking for TV and internet options in your area? Compare plans from participating providers and explore available offers based on your location. JKcompareinternet can help guide you every step of the way.
+                Looking for TV and internet options in your area? We help you compare plans from
+                participating providers and get connected through licensed carriers based on your
+                location. JKcompareinternet guides you every step of the way.
               </p>
               
               <h3 className="text-2xl font-bold text-white mb-6">Why Choose JKcompareinternet?</h3>
@@ -194,8 +198,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h4 className="text-lg font-semibold text-white">Personalized Comparison Guidance</h4>
-                    <p className="mt-1 text-gray-400 font-light">Not sure which option fits your needs? We'll walk you through available plans and connect you with the right provider to get started.</p>
+                    <h4 className="text-lg font-semibold text-white">Personalized Plan Guidance</h4>
+                    <p className="mt-1 text-gray-400 font-light">Not sure which option fits your needs? We&apos;ll walk you through available plans and help you activate with the right provider.</p>
                   </div>
                 </li>
               </ul>
@@ -219,7 +223,7 @@ export default function Home() {
                     <svg className="w-6 h-6 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
                     Compare & Call (888) 879-9161
                   </a>
-                  <p className="text-xs text-gray-500 mt-4 text-center">Internet comparison &amp; provider connection service.</p>
+                  <p className="text-xs text-gray-500 mt-4 text-center">Independent authorized reseller — compare, choose, and activate with confidence.</p>
                 </div>
               </div>
             </div>
@@ -248,7 +252,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Frequently Asked Questions</h2>
-            <p className="text-gray-400 font-light">Find answers to common questions about our comparison and enrollment services.</p>
+            <p className="text-gray-400 font-light">Find answers to common questions about our authorized reseller and plan comparison services.</p>
           </div>
 
           <div className="space-y-4">
