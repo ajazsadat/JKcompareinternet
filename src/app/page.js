@@ -289,23 +289,6 @@ export default function Home() {
       </section>
 
       <HomeGetStarted />
-
-      <section
-        id="disclaimer"
-        className="scroll-mt-32 border-t border-white/10 bg-[#111827] py-12"
-      >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-xl md:text-2xl font-bold text-white mb-4">Disclaimer:</h2>
-          <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-4xl">
-            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation as an independent
-            comparison and referral website. We do not directly sell, install, or manage any Internet
-            or TV services. All company names, logos, and trademarks displayed on this website are the
-            property of their respective owners and are used strictly for identification and comparison
-            purposes. Jari &amp; Kinza Corporation operates as an authorized reseller,
-            connecting customers with select providers, including Xfinity.
-          </p>
-        </div>
-      </section>
     </div>
   );
 }
