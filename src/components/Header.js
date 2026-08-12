@@ -43,10 +43,11 @@ export default function Header() {
   const hideChrome =
     pathname === '/live-agent' || pathname === '/compare-internet-options';
 
-  // Matches reference site masthead disclaimer on all pages.
-  // Provider-specific "Why Choose / independent resource" copy lives in ProviderDisclaimerBanner.
+  // Matches reference site masthead disclaimer (hidden on homepage — homepage uses the
+  // before-footer Disclaimer section only).
   const headerDisclaimer =
     'jkcompareinternet.online, operated by Jari & Kinza Corporation, helps you compare top internet and TV plans from leading and trusted providers available in your area.';
+  const showHeaderDisclaimer = pathname !== '/';
 
   if (hideChrome) {
     return null;
@@ -56,9 +57,11 @@ export default function Header() {
   if (!mounted) {
     return (
       <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/5">
-        <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
-          {headerDisclaimer}
-        </div>
+        {showHeaderDisclaimer && (
+          <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
+            {headerDisclaimer}
+          </div>
+        )}
         <div className="h-20"></div>
       </header>
     );
@@ -66,9 +69,11 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
-      <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
-        {headerDisclaimer}
-      </div>
+      {showHeaderDisclaimer && (
+        <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
+          {headerDisclaimer}
+        </div>
+      )}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <div className="flex-shrink-0 flex items-center">
