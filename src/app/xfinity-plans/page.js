@@ -69,28 +69,28 @@ export default function XfinityPage() {
 
   const faqs = [
     {
-      q: 'Is JKcompareinternet affiliated with Xfinity or Comcast?',
-      a: "No — jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent authorized reseller. We are not Comcast or Xfinity. We help you compare Xfinity alongside other providers so you can see how it stacks up, and we do not sell or manage Xfinity accounts.",
+      q: 'How does JKcompareinternet assist with Xfinity?',
+      a: 'We help you compare plans, check service availability, and understand features and pricing. Our guidance ensures you pick the plan that best fits your household or business needs.',
     },
     {
-      q: 'Where do I go for questions about my current Xfinity account or bill?',
-      a: "That has to go through Xfinity directly — we don't have access to customer accounts. We can point you to Xfinity's official contact info if needed.",
+      q: 'Is Xfinity different from Comcast?',
+      a: 'Comcast operates Xfinity as its brand for consumer services, including internet, TV, mobile, and home security. JKcompareinternet can help you understand what services are offered near you.',
     },
     {
-      q: 'What makes JKcompareinternet different from going straight to Xfinity?',
-      a: "We show you Xfinity's pricing next to other providers like AT&T and Spectrum, so you're comparing real numbers instead of just one company's pitch.",
+      q: 'Are there any Xfinity deals for new customers?',
+      a: 'Xfinity offers periodic promotions on internet, TV, and bundle packages. Our experts can help you identify the most relevant offers for your location and needs.',
     },
     {
-      q: 'Can you tell me what Xfinity plans are available at my address?',
-      a: "Yes — call or fill out the form and we'll walk you through what's offered specifically in your area.",
+      q: 'Can I combine Xfinity services in a bundle?',
+      a: 'Yes! Internet, TV, phone, and mobile services can be bundled to simplify management and may offer additional savings. We can help you explore which bundles make sense for you.',
     },
     {
-      q: 'Are the prices shown here exactly what Xfinity charges?',
-      a: 'These are starting-point estimates based on publicly available rates. Final pricing depends on your address and current promotions — we confirm exact numbers on the call.',
+      q: 'Do you sell or manage Xfinity accounts?',
+      a: 'No. JKcompareinternet is an independent resource. We do not sell or manage Xfinity accounts; all information is for guidance only.',
     },
     {
-      q: 'Does it cost anything to compare plans with you?',
-      a: "No — there's no cost to call or request a comparison, and no obligation to switch.",
+      q: 'Do you provide official Xfinity pricing?',
+      a: 'We do not sell or provide official pricing. Any mention of starting prices or promotions is for general reference only. For exact details, we recommend confirming with Xfinity directly.',
     },
   ];
 

@@ -81,28 +81,24 @@ export default function SpectrumPage() {
 
   const faqs = [
     {
-      q: 'Is JKcompareinternet part of Spectrum or Charter?',
-      a: "No. jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent authorized reseller — not Spectrum, Charter, or any other carrier. We're an independent resource that helps you compare plans; we do not sell or manage Spectrum accounts.",
+      q: 'Are you an official Spectrum reseller?',
+      a: 'No, JKcompareinternet is not an authorized Spectrum reseller. We do not sell Spectrum packages directly. Our goal is to provide independent guidance so you can explore options and find the right provider for your needs.',
     },
     {
-      q: 'Where do I go for questions about my existing Spectrum service?',
-      a: "That has to go through Spectrum directly, since we don't have access to customer accounts. What we can do is point you to the right Spectrum contact number and, if you're open to it, show you what else is available in your area.",
+      q: 'How can I contact Spectrum customer support?',
+      a: "While we don't handle Spectrum accounts ourselves, we can guide you on how to reach Spectrum customer support and help you understand what services are available in your area.",
     },
     {
-      q: "What's the point of using JKcompareinternet instead of going straight to a provider?",
-      a: "Providers naturally lead with their own plans. We lay out pricing, speed tiers, and terms from several providers side by side so you're not relying on a single sales pitch to decide.",
+      q: 'What makes JKcompareinternet different?',
+      a: "We're an independent service that evaluates multiple providers based on coverage, performance, and customer experience. Our recommendations are unbiased and focused on helping you make informed choices.",
     },
     {
-      q: "Can you tell me what's actually available at my address?",
-      a: "Yes — give us a call or fill out the short form on this page with your address, and we'll walk you through the plans that serve your specific location.",
+      q: 'Can you help me compare providers in my area?',
+      a: 'Yes! Our team can walk you through different internet, TV, and phone options, including Spectrum, so you can see what fits your home and budget.',
     },
     {
-      q: "Do your prices reflect what I'll actually be charged?",
-      a: 'The pricing shown here is a starting-point estimate pulled from publicly available rates. Final pricing depends on your address, current promotions, and any equipment fees, so we always confirm exact numbers with you on the call.',
-    },
-    {
-      q: 'Is there a cost to talk to someone or get a comparison?',
-      a: "No — calling or submitting the form doesn't cost anything, and there's no obligation to switch providers afterward.",
+      q: 'Do you provide pricing or promotions for Spectrum?',
+      a: 'We do not sell or provide official pricing. Any mention of starting prices or promotions is for general reference only. For exact details, we recommend contacting Spectrum directly.',
     },
   ];
 
