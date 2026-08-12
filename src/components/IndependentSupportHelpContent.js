@@ -88,11 +88,9 @@ export default function IndependentSupportHelpContent({ className = '' }) {
         </div>
 
         <p className="page-disclaimer mt-10 max-w-3xl text-center text-sm leading-relaxed text-gray-400 md:mt-12">
-          jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an independent
-          authorized reseller. We help you compare and connect with providers — we do not provide
-          internet, TV, or phone services directly, and we are not Spectrum, Xfinity, AT&amp;T,
-          Verizon, Frontier, Windstream, Brightspeed, or any other carrier. For billing or existing
-          account support, please contact your provider directly.
+          Jari &amp; Kinza Corporation operates as an independent comparison platform that helps
+          users explore and evaluate Internet and TV plans from multiple trusted providers. We do
+          not directly sell, install, or manage any Internet or TV services.
         </p>
       </div>
     </div>

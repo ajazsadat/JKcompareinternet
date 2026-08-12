@@ -214,9 +214,9 @@ export default function XfinityPage() {
                   Compare & Call (888) 879-9161
                 </a>
                 <p className="text-xs text-gray-500 mt-4 text-center">
-                  Offers, availability, speeds, and pricing vary by ZIP. jkcompareinternet.online
-                  is operated by Jari &amp; Kinza Corporation, an independent authorized reseller.
-                  We do not provide Xfinity service directly.
+                  Offers, availability, speeds, and pricing vary by ZIP. JKcompareinternet is an
+                  independent resource. We do not sell or manage Xfinity accounts; all information
+                  is for guidance only.
                 </p>
               </div>
             </div>
