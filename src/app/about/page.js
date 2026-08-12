@@ -14,7 +14,8 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">About <span className="text-gradient">JKcompareinternet</span></h1>
           <p className="text-xl text-gray-300">
-            Compare plans and pricing at your address to find the best TV and internet services, easily and transparently.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation. Compare plans and
+            pricing at your address to find the best TV and internet services, easily and transparently.
           </p>
         </div>
       </section>
