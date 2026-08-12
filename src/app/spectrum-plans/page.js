@@ -82,7 +82,7 @@ export default function SpectrumPage() {
   const faqs = [
     {
       q: 'Is JKcompareinternet part of Spectrum or Charter?',
-      a: "No. JKcompareinternet operates independently of Spectrum, Charter, and every other provider listed on this site. We're a comparison resource, not a branch of any carrier.",
+      a: "No. jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent authorized reseller — not Spectrum, Charter, or any other carrier. We're an independent resource that helps you compare plans; we do not sell or manage Spectrum accounts.",
     },
     {
       q: 'Where do I go for questions about my existing Spectrum service?',
@@ -247,8 +247,9 @@ export default function SpectrumPage() {
                   Compare &amp; Call (888) 879-9161
                 </a>
                 <p className="text-xs text-gray-500 mt-4 text-center">
-                  Offers, availability, speeds, and pricing vary by ZIP. We are an independent
-                  comparison and referral service and do not provide service directly.
+                  Offers, availability, speeds, and pricing vary by ZIP. jkcompareinternet.online
+                  is operated by Jari &amp; Kinza Corporation, an independent authorized reseller.
+                  We do not provide Spectrum service directly.
                 </p>
               </div>
             </div>

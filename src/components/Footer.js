@@ -21,7 +21,9 @@ export default function Footer() {
               JKcompareinternet
             </span>
             <p className="mt-4 text-sm text-gray-400 max-w-xs">
-              Your trusted independent comparison service for TV and Internet deals. Find the best plans from top providers in your area.
+              jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an independent
+              authorized reseller. We help you compare, choose, and activate TV and internet plans
+              from leading providers in your area.
             </p>
           </div>
           
@@ -97,7 +99,12 @@ export default function Footer() {
         
         <div className="mt-12 border-t border-white/10 pt-8 space-y-3">
           <p className="text-xs text-gray-500 max-w-3xl">
-            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation. JKcompareinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation as an independent
+            authorized reseller and comparison platform that helps users explore and evaluate
+            Internet and TV plans from multiple trusted providers. We do not directly sell, install,
+            or manage any Internet or TV services. We are not Spectrum, Xfinity, AT&amp;T, Verizon,
+            Frontier, Windstream, Brightspeed, or any other carrier. For existing customer support,
+            please contact your provider directly.
           </p>
           <p className="text-xs text-gray-500">
             &copy; {new Date().getFullYear()} Jari &amp; Kinza Corporation. Operator of jkcompareinternet.online.

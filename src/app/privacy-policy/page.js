@@ -14,10 +14,16 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-white mb-4">What This Policy Covers</h2>
           <p className="mb-4 leading-relaxed font-light">
-            JKcompareinternet (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;), operated by Jari &amp; Kinza Corporation, manages this website and associated promotional brands. When we refer to our &quot;Services,&quot; we mean the websites, marketing campaigns, and offers we provide through our online channels.
+            At jkcompareinternet.online, operated by Jari &amp; Kinza Corporation, your privacy is
+            our priority. We are dedicated to safeguarding your personal data and ensuring
+            transparency about how we collect, use, and protect the information you share when using
+            our website or engaging with our services.
           </p>
           <p className="mb-4 leading-relaxed font-light">
-            JKcompareinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+            Jari &amp; Kinza Corporation is an independent authorized reseller — not Spectrum,
+            Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We
+            do not provide customer service for these carriers. For existing customer support,
+            please contact your provider directly.
           </p>
           <p className="mb-4 leading-relaxed font-light">
             This Privacy Policy explains how we collect, use, and protect your personal data (also called &quot;personal information&quot;). It also outlines the security measures we use to safeguard your data, and the rights and choices available to you.
@@ -57,10 +63,16 @@ export default function PrivacyPolicy() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-white mb-4">4. Third-Party Services</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We may share personal information with trusted third-party service providers (such as analytics providers) under confidentiality agreements. Information may also be shared with participating service providers solely for the purpose of plan comparison, eligibility checks, or service enrollment at the user's request.
+            We do not sell your information to third parties. We may share your information with
+            authorized telecom providers strictly for the purpose of service provisioning,
+            activation, or customer support. Information may also be shared with trusted service
+            providers (such as analytics providers) under confidentiality agreements.
           </p>
           <p className="mb-4 leading-relaxed font-light">
-            We do not sell your personal data. We only use personal data for purposes described in this policy and do not share your personal data with third parties except as disclosed.
+            All providers we partner with are expected to protect your information in accordance
+            with applicable data protection laws. We only use personal data for purposes described
+            in this policy and do not share your personal data with third parties except as
+            disclosed.
           </p>
         </section>
 

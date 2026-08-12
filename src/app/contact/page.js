@@ -14,7 +14,8 @@ export default function Contact() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Contact <span className="text-gradient">Us</span></h1>
           <p className="text-xl text-gray-300">
-            Have a question or need help finding the right plan? We're here for you.
+            Have a question or need help comparing and activating the right plan? We&apos;re here
+            for you.
           </p>
         </div>
       </section>
@@ -29,7 +30,10 @@ export default function Contact() {
               <div>
                 <h2 className="text-3xl font-bold text-white mb-6">Get In Touch</h2>
                 <p className="text-gray-400 mb-8">
-                  Whether you're looking for a new internet provider, a better TV package, or just want to see what's available in your area, our team is ready to assist you.
+                  Whether you&apos;re looking for a new internet provider, a better TV package, or
+                  just want to see what&apos;s available in your area, Jari &amp; Kinza Corporation
+                  — operator of jkcompareinternet.online — is ready to help you compare options and
+                  get connected through licensed providers.
                 </p>
               </div>
 

@@ -1,8 +1,7 @@
-import Link from 'next/link';
-
 export const metadata = {
   title: 'About Us | JKcompareinternet',
-  description: 'Learn more about JKcompareinternet, your independent comparison service for TV and Internet deals.',
+  description:
+    'jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent authorized reseller that helps you compare, choose, and activate TV and internet plans.',
 };
 
 export default function About() {
@@ -14,8 +13,9 @@ export default function About() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">About <span className="text-gradient">JKcompareinternet</span></h1>
           <p className="text-xl text-gray-300">
-            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation. Compare plans and
-            pricing at your address to find the best TV and internet services, easily and transparently.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation. We help you
+            compare plans and get connected through licensed service providers easily and
+            transparently.
           </p>
         </div>
       </section>
@@ -27,16 +27,27 @@ export default function About() {
             
             <div className="space-y-8">
               <div>
-                <h2 className="text-3xl font-bold text-white mb-4">Our Mission</h2>
+                <h2 className="text-3xl font-bold text-white mb-4">Who We Are</h2>
                 <p className="text-gray-400 leading-relaxed">
-                  At JKcompareinternet, we understand how overwhelming it can be to choose the right TV and internet provider. With so many options, confusing pricing structures, and hidden fees, we provide clear, side-by-side comparisons of plans, pricing, and features so you can make an informed decision.
+                  jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an
+                  independent, authorized reseller that works with multiple leading broadband,
+                  cable, and wireless providers. We don&apos;t favor any carrier — our
+                  recommendations are based on your location, your needs, and your budget.
+                </p>
+                <p className="text-gray-400 leading-relaxed mt-4">
+                  We are not an internet service provider and do not own or operate network
+                  infrastructure. All services are fulfilled and billed directly by licensed
+                  carriers.
                 </p>
               </div>
               
               <div>
                 <h2 className="text-3xl font-bold text-white mb-4">What We Do</h2>
                 <p className="text-gray-400 leading-relaxed">
-                  We act as an independent comparison service, gathering the latest deals and packages from providers such as Xfinity, Frontier, Windstream, and Spectrum. We present this information in a straightforward format so you can compare plans and pricing available at your address.
+                  As an independent authorized reseller, we help you explore and compare available
+                  internet, TV, and wireless options from providers such as Xfinity, Frontier,
+                  Windstream, and Spectrum. We present clear plan details so you can choose and
+                  activate the option that fits your address and budget.
                 </p>
               </div>
 
@@ -45,15 +56,15 @@ export default function About() {
                 <ul className="space-y-4 text-gray-400">
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                    <span><strong>Unbiased Comparisons:</strong> We are not a direct provider, which means our comparisons are objective and focused on finding the best options for your address.</span>
+                    <span><strong>Independent &amp; Unbiased:</strong> We compare multiple carriers and only recommend what truly fits your needs.</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                    <span><strong>Compare Plans & Pricing:</strong> Use our comparison tools to review plans, speeds, and pricing at your address so you can select the plan that meets your needs.</span>
+                    <span><strong>Compare Plans &amp; Pricing:</strong> Review speeds, pricing, and features at your address so you can select with confidence.</span>
                   </li>
                   <li className="flex items-start">
                     <svg className="w-6 h-6 text-blue-400 mr-3 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" /></svg>
-                    <span><strong>Time & Money Saved:</strong> We surface the latest deals and fees so you can connect quickly and start saving without hours of manual research.</span>
+                    <span><strong>Help Getting Connected:</strong> We help coordinate activation and setup with the licensed provider you choose.</span>
                   </li>
                 </ul>
               </div>
@@ -61,11 +72,11 @@ export default function About() {
               <div>
                 <h2 className="text-3xl font-bold text-white mb-4">Our Role</h2>
                 <p className="text-gray-400 leading-relaxed">
-                  jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an
-                  authorized reseller that helps customers compare and connect with select
-                  providers, including Xfinity. Other providers referenced on this site may be
-                  shown for comparison purposes and do not necessarily have an official
-                  partnership unless explicitly stated.
+                  Jari &amp; Kinza Corporation operates as an independent authorized reseller that
+                  helps customers compare, select, and activate services with select providers,
+                  including Xfinity. Other providers referenced on this site may be shown for
+                  comparison purposes and do not necessarily have an official partnership unless
+                  explicitly stated.
                 </p>
               </div>
             </div>
@@ -75,7 +86,8 @@ export default function About() {
               <div className="bg-[#1f2833] border border-white/10 rounded-3xl p-10 relative z-10 shadow-2xl">
                 <h3 className="text-2xl font-bold text-white mb-6">Compare Plans For Your Area</h3>
                 <p className="text-gray-300 mb-8">
-                  Compare plans and pricing at your address to see available providers, speeds, and current offers in your area.
+                  Call to compare plans and pricing at your address and see available providers,
+                  speeds, and current offers in your area.
                 </p>
                 <div className="bg-[#0b0c10] rounded-xl p-6 border border-white/5 flex flex-col items-center text-center">
                   <div className="w-16 h-16 bg-blue-500/20 rounded-full flex items-center justify-center mb-4">
