@@ -43,11 +43,11 @@ export default function ResellerDisclosure() {
             confirm final details with their chosen provider prior to activation.
           </p>
           <p className="leading-relaxed font-light">
-            JKcompareinternet is an authorized reseller through Sandler Partners,
-            LLC, connecting customers with select providers, including Xfinity.
-            Other providers referenced on this site may be shown for comparison
-            purposes and do not necessarily have a direct partnership unless
-            explicitly stated.
+            Jari &amp; Kinza Corporation operates as an authorized reseller,
+            connecting customers with select providers, including Xfinity. Other
+            providers referenced on this site may be shown for comparison purposes
+            and do not necessarily have a direct partnership unless explicitly
+            stated.
           </p>
         </section>
 

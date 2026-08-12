@@ -59,9 +59,13 @@ export default function About() {
               </div>
 
               <div>
-                <h2 className="text-3xl font-bold text-white mb-4">Our Partnership</h2>
+                <h2 className="text-3xl font-bold text-white mb-4">Our Role</h2>
                 <p className="text-gray-400 leading-relaxed">
-                  JKcompareinternet is an authorized reseller through Sandler Partners, LLC, and connects customers with select providers, including Xfinity, via that reseller relationship. Other providers referenced on this site do not have an official partnership with JKcompareinternet unless explicitly stated.
+                  jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an
+                  authorized reseller that helps customers compare and connect with select
+                  providers, including Xfinity. Other providers referenced on this site may be
+                  shown for comparison purposes and do not necessarily have an official
+                  partnership unless explicitly stated.
                 </p>
               </div>
             </div>
