@@ -50,6 +50,15 @@ export default function Footer() {
               <li>
                 <Link href="/terms-conditions" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Terms & Conditions</Link>
               </li>
+              <li>
+                <Link href="/reseller-disclosure" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Reseller Disclosure</Link>
+              </li>
+              <li>
+                <Link href="/cookie-policy" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Cookie Policy</Link>
+              </li>
+              <li>
+                <Link href="/fees-disclosures" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Fees & Disclosures</Link>
+              </li>
             </ul>
           </div>
           
@@ -86,9 +95,12 @@ export default function Footer() {
           </div>
         </div>
         
-        <div className="mt-12 border-t border-white/10 pt-8">
+        <div className="mt-12 border-t border-white/10 pt-8 space-y-3">
           <p className="text-xs text-gray-500 max-w-3xl">
-            JKcompareinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation. JKcompareinternet is an independent comparison platform — not Spectrum, Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.
+          </p>
+          <p className="text-xs text-gray-500">
+            &copy; {new Date().getFullYear()} Jari &amp; Kinza Corporation. Operator of jkcompareinternet.online.
           </p>
         </div>
       </div>
@@ -110,7 +122,7 @@ export default function Footer() {
             Disclaimer
           </Link>
           <p className="text-sm text-white/90">
-            &copy; {new Date().getFullYear()} JKcompareinternet. All rights reserved.
+            &copy; {new Date().getFullYear()} Jari &amp; Kinza Corporation. All rights reserved.
           </p>
         </div>
       </div>

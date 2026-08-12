@@ -19,6 +19,16 @@ export default function TermsConditions() {
         </section>
 
         <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-white mb-4">Introduction</h2>
+          <p className="mb-4 leading-relaxed font-light">
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, a third-party reseller connecting customers with licensed telecommunications and technology service providers across the United States.
+          </p>
+          <p className="mb-4 leading-relaxed font-light">
+            We do not own or operate any internet, cable, wireless, or communication networks. Our role is to help customers find, compare, and activate the right provider based on their needs and location.
+          </p>
+        </section>
+
+        <section className="mb-8">
           <h2 className="text-2xl font-semibold text-white mb-4">1. Acceptance of Terms</h2>
           <p className="mb-4 leading-relaxed font-light">
             By using our site, you agree to comply with and be bound by these Terms and all applicable laws. If you do not agree, please do not use our services.
@@ -54,6 +64,14 @@ export default function TermsConditions() {
           <p className="mb-4 leading-relaxed font-light">
             To the fullest extent permitted by law, JKcompareinternet is not liable for any indirect, incidental, special, or consequential damages arising from your use of the website or services. Our total liability, if any, is limited to the amount you paid (if any) for access to our services.
           </p>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-white mb-4">Payments &amp; Commissions</h2>
+          <ul className="list-disc pl-5 space-y-2 font-light text-gray-400 mb-4">
+            <li>jkcompareinternet.online, operated by Jari &amp; Kinza Corporation, does not charge customers directly for consultation or comparison assistance.</li>
+            <li>We may earn commissions or referral fees from providers when a customer activates a service through our platform. This does not influence pricing or our recommendations; all offers are presented fairly and transparently.</li>
+          </ul>
         </section>
 
         <section className="mb-8">

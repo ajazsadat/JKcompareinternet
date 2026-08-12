@@ -44,11 +44,11 @@ export default function Header() {
     pathname === '/live-agent' || pathname === '/compare-internet-options';
 
   const DEFAULT_DISCLAIMER =
-    'Jari & Kinza Corporation, operating JKcompareinternet.online — helps you compare top internet and TV plans from leading and trusted providers available in your area.';
+    'jkcompareinternet.online is operated by Jari & Kinza Corporation. We help you compare top internet and TV plans from leading and trusted providers available in your area.';
   const SPECTRUM_DISCLAIMER =
-    'JKcompareinternet is an independent comparison platform — not Spectrum, Charter, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.';
+    'Why Choose JKcompareinternet? We help you compare top internet and TV plans from leading and trusted providers available in your area. JKcompareinternet is an independent resource. We do not sell or manage Spectrum accounts; all information is for guidance only.';
   const XFINITY_DISCLAIMER =
-    'JKcompareinternet is an independent comparison platform — not Xfinity, Comcast, or any other carrier. We do not provide customer service for these carriers. For existing customer support, please contact your provider directly.';
+    'Why Choose JKcompareinternet? We help you compare top internet and TV plans from leading and trusted providers available in your area. JKcompareinternet is an independent resource. We do not sell or manage Xfinity accounts; all information is for guidance only.';
 
   const headerDisclaimer =
     pathname === '/spectrum-plans'

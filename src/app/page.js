@@ -17,16 +17,16 @@ export default function Home() {
 
   const faqs = [
     {
-      q: "Are you the internet service provider?",
-      a: "No. JK Compare Internet operates as an independent comparison platform that helps users explore and evaluate Internet and TV plans from multiple trusted providers. We do not directly sell internet or TV services."
+      q: "Which internet providers can I find through your platform?",
+      a: "jkcompareinternet.online is operated by Jari & Kinza Corporation. We partner with a network of licensed resellers, authorized retailers, and master-dealer distributors representing leading U.S. telecom and internet service brands. Availability and offers vary by ZIP code — call us at (888) 879-9161 to view current plan options in your area."
     },
     {
       q: "Do you charge for your services?",
       a: "Our services are free to you. We may receive compensation from providers or referral partners when you sign up through our referral system — but there is no additional cost to you."
     },
     {
-      q: "How do I compare internet plans easily?",
-      a: "Through our comparison tool, you can review prices, speeds, connection types, contract terms, and promotions from multiple providers easily. We make it simple to find affordable and fast internet options."
+      q: "What does it mean to be an “authorized reseller” or “partner network”?",
+      a: "We are not the direct provider of internet, wireless, or cable services. jkcompareinternet.online is operated by Jari & Kinza Corporation as an authorized reseller and licensed retailer for multiple carrier and service networks across the U.S. This means we’re approved to market, compare, and facilitate service orders through official partner and master-dealer programs — giving customers access to more plan options in one place."
     },
     {
       q: "What types of internet service are available?",
@@ -81,6 +81,23 @@ export default function Home() {
               Compare & Call: (888) 879-9161
             </a>
           </div>
+        </div>
+      </section>
+
+      {/* Who We Are */}
+      <section className="py-20 bg-[#0b0c10] border-t border-white/5 relative">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Who We Are</h2>
+          <p className="text-gray-300 text-lg font-light leading-relaxed mb-6">
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an independent,
+            authorized reseller that works with multiple leading broadband, cable, and wireless
+            providers. We don&apos;t favor any carrier — our recommendations are based on your
+            location, your needs, and your budget.
+          </p>
+          <p className="text-gray-400 font-light leading-relaxed">
+            We are not an internet service provider and do not own or operate network
+            infrastructure. All services are fulfilled and billed directly by licensed carriers.
+          </p>
         </div>
       </section>
 
@@ -211,6 +228,21 @@ export default function Home() {
         </div>
       </section>
 
+      {/* What we offer */}
+      <section className="py-20 bg-gradient-to-b from-[#111827] to-[#0b0c10] border-t border-white/5">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+            jkcompareinternet.online, operated by Jari &amp; Kinza Corporation, offers
+          </h2>
+          <p className="text-gray-300 text-lg font-light leading-relaxed">
+            A single, convenient platform to explore high-speed Internet, Cable TV, Home Phone,
+            Wireless, and Home Security options—featuring real-time availability, upfront pricing,
+            and easy installation coordination as an independent, authorized retailer and licensed
+            reseller for several leading U.S. telecom and home service providers.
+          </p>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="py-24 bg-[#0b0c10] border-t border-white/5 relative">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -243,7 +275,7 @@ export default function Home() {
                 </button>
                 <div 
                   className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${
-                    openFaq === index ? 'max-h-96 pb-6 opacity-100' : 'max-h-0 opacity-0'
+                    openFaq === index ? 'max-h-[40rem] pb-6 opacity-100' : 'max-h-0 opacity-0'
                   }`}
                 >
                   <p className="text-gray-400 font-light leading-relaxed">
@@ -265,10 +297,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-xl md:text-2xl font-bold text-white mb-4">Disclaimer:</h2>
           <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-4xl">
-            JKcompareinternet operates as an independent comparison and referral website. We do not
-            directly sell, install, or manage any Internet or TV services. All company names, logos,
-            and trademarks displayed on this website are the property of their respective owners and
-            are used strictly for identification and comparison purposes. JKcompareinternet is an authorized reseller through Sandler Partners, LLC, connecting customers with select providers, including Xfinity.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation as an independent
+            comparison and referral website. We do not directly sell, install, or manage any Internet
+            or TV services. All company names, logos, and trademarks displayed on this website are the
+            property of their respective owners and are used strictly for identification and comparison
+            purposes. JKcompareinternet is an authorized reseller through Sandler Partners, LLC,
+            connecting customers with select providers, including Xfinity.
           </p>
         </div>
       </section>

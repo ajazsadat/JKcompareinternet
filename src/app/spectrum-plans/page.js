@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
+import ProviderDisclaimerBanner from '@/components/ProviderDisclaimerBanner';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 import SpectrumTabs from '@/components/SpectrumTabs';
 
@@ -130,6 +131,8 @@ export default function SpectrumPage() {
         </div>
       </section>
 
+      <ProviderDisclaimerBanner providerName="Spectrum" />
+
       {/* Button + disclaimer */}
       <section className="border-b border-white/5 bg-[#111827]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col items-center text-center gap-4">
@@ -154,8 +157,8 @@ export default function SpectrumPage() {
             </a>
           </div>
           <p className="cta-disclaimer text-sm text-gray-400 max-w-2xl leading-relaxed">
-            JKcompareinternet operates as an independent comparison resource — we don&apos;t manage
-            or sell Spectrum accounts. Everything on this page is for general guidance only.
+            *JKcompareinternet is an independent resource. We do not sell or manage
+            Spectrum accounts; all information is for guidance only.
           </p>
         </div>
       </section>
