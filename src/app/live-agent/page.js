@@ -93,17 +93,11 @@ export default function LiveAgentPage() {
           </div>
         </div>
 
-        <section
-          id="disclaimer"
-          className="mt-12 w-full max-w-7xl scroll-mt-32 border-t border-white/10 pt-10"
-        >
-          <h2 className="text-xl md:text-2xl font-bold text-white mb-4">Disclaimer:</h2>
-          <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-4xl">
-            Jari &amp; Kinza Corporation operates as an independent comparison platform that helps
-            users explore and evaluate Internet and TV plans from multiple trusted providers. We do
-            not directly sell, install, or manage any Internet or TV services.
-          </p>
-        </section>
+        <p className="page-disclaimer mt-10 max-w-3xl text-center text-sm leading-relaxed text-gray-400 md:mt-12">
+          Jari &amp; Kinza Corporation operates as an independent comparison platform that helps
+          users explore and evaluate Internet and TV plans from multiple trusted providers. We do
+          not directly sell, install, or manage any Internet or TV services.
+        </p>
       </div>
     </div>
   );
