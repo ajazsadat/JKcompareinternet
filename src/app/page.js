@@ -26,11 +26,11 @@ export default function Home() {
     },
     {
       q: "What does it mean to be an “authorized reseller” or “partner network”?",
-      a: "We are not the direct provider of internet, wireless, or cable services. jkcompareinternet.online is operated by Jari & Kinza Corporation as an authorized reseller and licensed retailer for multiple carrier and service networks across the U.S. This means we’re approved to market, compare, and facilitate service orders through official partner and master-dealer programs — giving customers access to more plan options in one place."
+      a: "We are not the direct provider of internet, wireless, or cable services. Instead, we operate as an authorized reseller and licensed retailer for multiple carrier and service networks across the U.S. This means we’re approved to market, compare, and facilitate service orders through official partner and master-dealer programs — giving customers access to more plan options in one place. jkcompareinternet.online is operated by Jari & Kinza Corporation."
     },
     {
       q: "Do you charge for your services?",
-      a: "Our consultation and comparison assistance is free to you. We may receive a commission or referral fee from providers when a customer activates a service through our platform — but there is no additional cost to you, and this does not influence pricing or our recommendations."
+      a: "Our consultation and comparison assistance is free to you. jkcompareinternet.online, operated by Jari & Kinza Corporation, does not charge customers directly for consultation or comparison assistance. We may earn commissions or referral fees from providers when a customer activates a service through our platform. This does not influence pricing or our recommendations, all offers are presented fairly and transparently."
     },
     {
       q: "Are there any installation or equipment costs?",
@@ -38,7 +38,7 @@ export default function Home() {
     },
     {
       q: "How is installation arranged once I select a plan?",
-      a: "Once you confirm your selection, our team helps coordinate the process with your chosen provider’s certified installation partner. Timelines vary by provider, location, and technician availability."
+      a: "Once you confirm your selection, our team coordinates the process with your chosen provider’s certified installation partner. Most installations are completed within 24–48 hours, depending on technician availability and local scheduling."
     },
     {
       q: "Who should I contact for support after installation?",
@@ -252,7 +252,9 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Frequently Asked Questions</h2>
-            <p className="text-gray-400 font-light">Find answers to common questions about our authorized reseller and plan comparison services.</p>
+            <p className="text-gray-400 font-light">
+              Find answers to common questions about our services.
+            </p>
           </div>
 
           <div className="space-y-4">
@@ -293,6 +295,20 @@ export default function Home() {
       </section>
 
       <HomeGetStarted />
+
+      <section
+        id="disclaimer"
+        className="scroll-mt-32 border-t border-white/10 bg-[#111827] py-12"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-xl md:text-2xl font-bold text-white mb-4">Disclaimer:</h2>
+          <p className="text-gray-400 text-sm md:text-base leading-relaxed max-w-4xl">
+            Jari &amp; Kinza Corporation operates as an independent comparison platform that helps
+            users explore and evaluate Internet and TV plans from multiple trusted providers. We do
+            not directly sell, install, or manage any Internet or TV services.
+          </p>
+        </div>
+      </section>
     </div>
   );
 }

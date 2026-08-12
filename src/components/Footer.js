@@ -99,21 +99,33 @@ export default function Footer() {
         
         <div className="mt-12 border-t border-white/10 pt-8 space-y-3">
           <p className="text-xs text-gray-500 max-w-3xl">
-            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation as an independent
-            authorized reseller and comparison platform that helps users explore and evaluate
-            Internet and TV plans from multiple trusted providers. We do not directly sell, install,
-            or manage any Internet or TV services. We are not Spectrum, Xfinity, AT&amp;T, Verizon,
-            Frontier, Windstream, Brightspeed, or any other carrier. For existing customer support,
-            please contact your provider directly.
+            Jari &amp; Kinza Corporation operates as an independent comparison platform that helps
+            users explore and evaluate Internet and TV plans from multiple trusted providers. We do
+            not directly sell, install, or manage any Internet or TV services.
           </p>
           <p className="text-xs text-gray-500">
-            &copy; {new Date().getFullYear()} Jari &amp; Kinza Corporation. Operator of jkcompareinternet.online.
+            &copy; {new Date().getFullYear()} Jari &amp; Kinza Corporation. Operator of
+            jkcompareinternet.online.
           </p>
         </div>
       </div>
 
       <div className="mt-8 bg-blue-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-center items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row justify-between items-center gap-2">
+          <Link
+            href="/#disclaimer"
+            className="text-sm sm:text-base font-semibold text-white hover:text-cyan-100 transition-colors"
+            onClick={(event) => {
+              if (pathname !== '/') return;
+              const section = document.getElementById('disclaimer');
+              if (!section) return;
+              event.preventDefault();
+              section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              window.history.replaceState(null, '', '/#disclaimer');
+            }}
+          >
+            Disclaimer
+          </Link>
           <p className="text-sm text-white/90">
             &copy; {new Date().getFullYear()} Jari &amp; Kinza Corporation. All rights reserved.
           </p>

@@ -51,9 +51,9 @@ export default function ProviderWhyChoose({
               Why Choose JKcompareinternet?
             </h3>
             <p className="text-gray-300 leading-relaxed mb-6">
-              {leadText} {servicesText} is easier with JKcompareinternet — an independent
-              authorized reseller that helps you compare options, understand features and pricing,
-              and choose what works best for your home or business.
+              {leadText} {servicesText} is easier with JKcompareinternet — we help you compare
+              options, understand features and pricing, and choose what works best for your home or
+              business.
             </p>
 
             <a

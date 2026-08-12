@@ -18,24 +18,22 @@ export default function FeesDisclosures() {
 
         <section className="mb-8 space-y-4">
           <p className="leading-relaxed font-light">
-            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation and
-            does not charge customers any additional fees for consulting,
-            comparison, or connection assistance. Any applicable installation,
-            activation, or equipment fees are determined and charged directly by the
-            service provider, not by Jari &amp; Kinza Corporation.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation and does not charge
+            customers any additional fees for consulting, comparison, or connection assistance. Any
+            applicable installation, activation, or equipment fees are determined and charged
+            directly by the service provider, not by jkcompareinternet.online, operated by Jari
+            &amp; Kinza Corporation.
           </p>
           <p className="leading-relaxed font-light">
-            We may receive a one-time or recurring commission from our partner
-            providers for successful activations or continued customer
-            relationships. These payments are part of standard industry partnerships
-            and do not influence our recommendations — our goal is to match
-            customers with the most suitable service for their needs and location.
+            We may receive a one-time or recurring commission from our partner providers for
+            successful activations or continued customer relationships. These payments are part of
+            standard industry partnerships and do not influence our recommendations — our goal is to
+            match customers with the most suitable service for their needs and location.
           </p>
           <p className="leading-relaxed font-light">
-            All offers, pricing, and promotions are subject to provider terms and
-            availability. Taxes, surcharges, early termination fees, and equipment
-            charges may apply and are the responsibility of the customer under their
-            agreement with the provider.
+            All offers, pricing, and promotions are subject to provider terms and availability.
+            Taxes, surcharges, early termination fees, and equipment charges may apply and are the
+            responsibility of the customer under their agreement with the provider.
           </p>
         </section>
 
@@ -44,17 +42,17 @@ export default function FeesDisclosures() {
             Offer &amp; Pricing Details
           </h2>
           <p className="leading-relaxed font-light">
-            Promotional pricing may apply for a limited time and is subject to
-            change. After the promotional period, standard rates may apply.
-            Discounts may begin within the first few billing cycles.
+            Promotional pricing may apply for a limited time and is subject to change. After the
+            promotional period, standard rates may apply. Discounts may begin within the first few
+            billing cycles.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-white mb-4">Eligibility</h2>
           <p className="leading-relaxed font-light">
-            Offers may be available to new residential customers only and may not be
-            available in all areas. Certain multi-dwelling units may not qualify.
+            Offers may be available to new residential customers only and may not be available in
+            all areas. Certain multi-dwelling units may not qualify.
           </p>
         </section>
 
@@ -63,16 +61,16 @@ export default function FeesDisclosures() {
             AutoPay &amp; Paperless Billing
           </h2>
           <p className="leading-relaxed font-light">
-            Monthly discounts may apply when enrolled in AutoPay and paperless
-            billing. Discount amounts may vary depending on payment method.
+            Monthly discounts may apply when enrolled in AutoPay and paperless billing. Discount
+            amounts may vary depending on payment method.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-white mb-4">Fees &amp; Taxes</h2>
           <p className="leading-relaxed font-light">
-            Installation fees, equipment charges, and applicable taxes may apply.
-            Pricing excludes taxes and surcharges unless otherwise stated.
+            Installation fees, equipment charges, and applicable taxes may apply. Pricing excludes
+            taxes and surcharges unless otherwise stated.
           </p>
         </section>
 
@@ -81,16 +79,16 @@ export default function FeesDisclosures() {
             Speeds &amp; Performance
           </h2>
           <p className="leading-relaxed font-light">
-            Internet speeds are based on wired connections. Actual speeds may vary
-            depending on network conditions, equipment, and other factors.
+            Internet speeds are based on wired connections. Actual speeds may vary depending on
+            network conditions, equipment, and other factors.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-white mb-4">General Terms</h2>
           <p className="leading-relaxed font-light">
-            Offers are subject to change or discontinuation without notice.
-            Additional terms and conditions may apply.
+            Offers are subject to change or discontinuation without notice. Additional terms and
+            conditions may apply.
           </p>
         </section>
 

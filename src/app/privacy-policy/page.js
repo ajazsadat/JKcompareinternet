@@ -1,6 +1,7 @@
 export const metadata = {
   title: 'Privacy Policy | JKcompareinternet',
-  description: 'Privacy Policy for JKcompareinternet online platform.',
+  description:
+    'Privacy Policy for jkcompareinternet.online, operated by Jari & Kinza Corporation.',
 };
 
 export default function PrivacyPolicy() {
@@ -8,122 +9,120 @@ export default function PrivacyPolicy() {
     <div className="flex flex-col min-h-screen bg-[#0b0c10] pt-32 pb-20">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-gray-300">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Privacy Policy</h1>
-        <p className="text-sm text-gray-500 mb-2">Effective Date: July 23, 2026</p>
+        <p className="text-sm text-gray-500 mb-2">Effective Date: August 12, 2026</p>
         <p className="text-sm text-gray-500 mb-10">Website: https://jkcompareinternet.online/</p>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">What This Policy Covers</h2>
           <p className="mb-4 leading-relaxed font-light">
             At jkcompareinternet.online, operated by Jari &amp; Kinza Corporation, your privacy is
             our priority. We are dedicated to safeguarding your personal data and ensuring
             transparency about how we collect, use, and protect the information you share when using
             our website or engaging with our services.
           </p>
-          <p className="mb-4 leading-relaxed font-light">
-            Jari &amp; Kinza Corporation is an independent authorized reseller — not Spectrum,
-            Xfinity, AT&amp;T, Verizon, Frontier, Windstream, Brightspeed, or any other carrier. We
-            do not provide customer service for these carriers. For existing customer support,
-            please contact your provider directly.
-          </p>
-          <p className="mb-4 leading-relaxed font-light">
-            This Privacy Policy explains how we collect, use, and protect your personal data (also called &quot;personal information&quot;). It also outlines the security measures we use to safeguard your data, and the rights and choices available to you.
-          </p>
-          <p className="mb-4 leading-relaxed font-light">
-            Our Services may contain links to third-party websites. We do not control those websites and encourage you to review their privacy policies separately. Our Services are not intended for children under the age of 16, and we do not knowingly collect personal information from minors.
-          </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">1. Information We Collect</h2>
-          <ul className="list-disc pl-5 space-y-2 font-light text-gray-400">
-            <li><strong className="text-gray-300">Personal Data:</strong> Name, email address, phone number when you submit forms or call us.</li>
-            <li><strong className="text-gray-300">Usage Data:</strong> IP address, browser type, pages visited, and timestamps via cookies and analytics.</li>
-            <li><strong className="text-gray-300">Location Data:</strong> ZIP code only for service availability checks; we do not collect precise GPS location data.</li>
+          <h2 className="text-2xl font-semibold text-white mb-4">Information We Collect</h2>
+          <p className="mb-4 leading-relaxed font-light">
+            We may collect the following types of information:
+          </p>
+          <ul className="list-disc pl-5 space-y-3 font-light text-gray-400">
+            <li>
+              Personal details such as your name, email address, phone number, and business
+              information when you complete a form or request our services.
+            </li>
+            <li>
+              Service preferences or interest areas to help us provide relevant offers.
+            </li>
+            <li>
+              Technical information like your IP address, browser type, and device data for
+              analytical and security purposes.
+            </li>
           </ul>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">2. How We Use Your Information</h2>
-          <p className="mb-2 font-light">We use your information:</p>
-          <ul className="list-disc pl-5 space-y-2 font-light text-gray-400">
-            <li>To provide, personalize, and improve our services</li>
-            <li>To respond to your inquiries and communicate promotions</li>
-            <li>To analyze website usage and optimize user experience</li>
-            <li>To comply with legal obligations</li>
+          <h2 className="text-2xl font-semibold text-white mb-4">How We Use Your Information</h2>
+          <p className="mb-4 leading-relaxed font-light">
+            We use the information we collect to:
+          </p>
+          <ul className="list-disc pl-5 space-y-3 font-light text-gray-400">
+            <li>Communicate with you about the services or inquiries you&apos;ve requested.</li>
+            <li>
+              Connect you with the most relevant telecom providers that align with your business
+              requirements.
+            </li>
+            <li>Enhance our website performance and customer service experience.</li>
+            <li>
+              Provide updates, offers, or promotional content—but only when you&apos;ve given your
+              consent.
+            </li>
           </ul>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">3. Cookies & Tracking</h2>
+          <h2 className="text-2xl font-semibold text-white mb-4">Sharing Your Information</h2>
+          <ul className="list-disc pl-5 space-y-3 font-light text-gray-400">
+            <li>We do not sell your information to third parties.</li>
+            <li>
+              We may share your information with authorized telecom providers and our master
+              dealer(s) strictly for the purpose of service provisioning, activation, or customer
+              support.
+            </li>
+            <li>
+              All providers we partner with are contractually obligated to protect your information
+              in accordance with applicable data protection laws.
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-white mb-4">Consent &amp; Communication</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We use cookies and similar technologies to track activity on our site, including for analytics and website performance measurement. You can manage cookie preferences via your browser settings. Disabling cookies may affect site functionality.
+            By providing your information on our website, you agree to:
+          </p>
+          <ul className="list-disc pl-5 space-y-3 font-light text-gray-400">
+            <li>
+              Receive communications via email, phone, or SMS related to your service requests or
+              activation process.
+            </li>
+            <li>Allow us to use your information in accordance with this Privacy Policy.</li>
+            <li>Opt out of marketing messages whenever you choose.</li>
+          </ul>
+        </section>
+
+        <section className="mb-8">
+          <h2 className="text-2xl font-semibold text-white mb-4">Data Security</h2>
+          <p className="mb-4 leading-relaxed font-light">
+            We implement reasonable technical and organizational security protocols to secure your
+            personal data from unauthorized access, misuse, or disclosure.
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">4. Third-Party Services</h2>
+          <h2 className="text-2xl font-semibold text-white mb-4">Your Rights</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We do not sell your information to third parties. We may share your information with
-            authorized telecom providers strictly for the purpose of service provisioning,
-            activation, or customer support. Information may also be shared with trusted service
-            providers (such as analytics providers) under confidentiality agreements.
-          </p>
-          <p className="mb-4 leading-relaxed font-light">
-            All providers we partner with are expected to protect your information in accordance
-            with applicable data protection laws. We only use personal data for purposes described
-            in this policy and do not share your personal data with third parties except as
-            disclosed.
+            You may request access, correction, or deletion of your personal information by
+            contacting us at info@jkcompareinternet.online.
           </p>
         </section>
 
         <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">5. Data Security</h2>
+          <h2 className="text-2xl font-semibold text-white mb-4">Changes to This Policy</h2>
           <p className="mb-4 leading-relaxed font-light">
-            We implement industry-standard security measures to protect your information. However, no method of transmission or storage is 100% secure.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">6. Children's Privacy</h2>
-          <p className="mb-4 leading-relaxed font-light">
-            Our services are not directed to individuals under the age of 16. We do not knowingly collect personal information from minors.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">7. Your Rights</h2>
-          <p className="mb-4 leading-relaxed font-light">
-            You may request access, correction, or deletion of your personal data by contacting us via our official contact channels. California residents may have additional rights under applicable privacy laws.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">8. SMS &amp; Text Messaging</h2>
-          <p className="mb-4 leading-relaxed font-light">
-            By providing your phone number, you consent to receive text messages and calls from
-            JKcompareinternet and its service partners regarding your inquiry. Message and data
-            rates may apply. Consent is not a condition of purchase. You can opt out at any time by
-            replying STOP.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-semibold text-white mb-4">9. Changes to This Policy</h2>
-          <p className="mb-4 leading-relaxed font-light">
-            We may update this policy periodically. The &quot;Effective Date&quot; at the top will indicate changes.
+            We may revise this Privacy Policy at any time. Any updates will be published on this
+            page along with the new effective date.
           </p>
         </section>
 
         <section className="mb-8 pt-8 border-t border-white/10">
           <h2 className="text-2xl font-semibold text-white mb-4">Contact Us</h2>
-          <p className="mb-4 font-light">If you have questions or wish to exercise your rights, please contact us:</p>
           <ul className="space-y-2 font-light text-gray-400">
-            <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> (888) 879-9161</li>
-            <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> info@jkcompareinternet.online</li>
-            <li className="flex items-center"><span className="text-cyan-400 mr-2">✅</span> 19823 Younglake Blvd, Houston TX 77084</li>
+            <li>(888) 879-9161</li>
+            <li>info@jkcompareinternet.online</li>
+            <li>19823 Younglake Blvd, Houston, TX 77084</li>
           </ul>
         </section>
-
       </div>
     </div>
   );
