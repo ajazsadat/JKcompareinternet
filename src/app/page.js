@@ -301,7 +301,7 @@ export default function Home() {
             comparison and referral website. We do not directly sell, install, or manage any Internet
             or TV services. All company names, logos, and trademarks displayed on this website are the
             property of their respective owners and are used strictly for identification and comparison
-            purposes. JKcompareinternet is an authorized reseller through Sandler Partners, LLC,
+            purposes. Jari &amp; Kinza Corporation operates as an authorized reseller,
             connecting customers with select providers, including Xfinity.
           </p>
         </div>
