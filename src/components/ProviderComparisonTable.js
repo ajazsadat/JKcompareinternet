@@ -115,12 +115,11 @@ export default function ProviderComparisonTable() {
           Provider Comparison: How the Top Internet Services Stack Up by JKcompareinternet
         </h2>
         <p className="text-gray-400 text-sm leading-relaxed max-w-4xl mx-auto mb-8 text-center">
-          Jari &amp; Kinza Corporation operates as an independent comparison platform that helps
-          users explore and evaluate Internet and TV plans from multiple trusted providers. We do
-          not directly sell, install, or manage any Internet or TV services. This content is for
-          informational and guidance purposes only and is not affiliated with or endorsed by any of
-          the providers listed. Pricing, speeds, and features vary by address and change over time —
-          confirm details with the provider before you enroll.
+          The information in the table below reflects JKcompareinternet&apos;s independent research
+          and observations. It is based on publicly available data, performance trends, and our
+          internal evaluations. This content is for informational purposes only and is not
+          affiliated with or endorsed by any of the providers listed. Pricing, speeds, and features
+          vary by address and change over time — confirm details with the provider before you enroll.
         </p>
 
         <div className="overflow-x-auto rounded-2xl border border-white/10 bg-[#111827] shadow-xl">

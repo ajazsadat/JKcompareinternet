@@ -17,8 +17,8 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "JKcompareinternet | TV & Internet Deals",
   description:
-    "jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent authorized reseller. Compare, choose, and activate TV and internet plans from leading providers in your area.",
-  keywords: "TV internet deals, compare internet plans, cable TV deals, broadband offers, internet providers near me, authorized reseller",
+    "jkcompareinternet.online, operated by Jari & Kinza Corporation, helps you compare top internet and TV plans from leading and trusted providers available in your area.",
+  keywords: "TV internet deals, compare internet plans, cable TV deals, broadband offers, internet providers near me",
 };
 
 export default function RootLayout({ children }) {

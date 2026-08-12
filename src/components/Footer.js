@@ -21,9 +21,8 @@ export default function Footer() {
               JKcompareinternet
             </span>
             <p className="mt-4 text-sm text-gray-400 max-w-xs">
-              jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an independent
-              authorized reseller. We help you compare, choose, and activate TV and internet plans
-              from leading providers in your area.
+              jkcompareinternet.online, operated by Jari &amp; Kinza Corporation, helps you compare
+              top internet and TV plans from leading and trusted providers available in your area.
             </p>
           </div>
           
