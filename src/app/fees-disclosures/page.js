@@ -25,10 +25,10 @@ export default function FeesDisclosures() {
             &amp; Kinza Corporation.
           </p>
           <p className="leading-relaxed font-light">
-            We may receive a one-time or recurring commission from our partner providers for
-            successful activations or continued customer relationships. These payments are part of
-            standard industry partnerships and do not influence our recommendations — our goal is to
-            match customers with the most suitable service for their needs and location.
+            We may receive a one-time or recurring commission from a service provider when a
+            customer we refer activates or continues service. These payments do not influence our
+            recommendations — our goal is to match customers with the most suitable service for
+            their needs and location.
           </p>
           <p className="leading-relaxed font-light">
             All offers, pricing, and promotions are subject to provider terms and availability.

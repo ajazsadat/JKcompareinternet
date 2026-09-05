@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
+import OfferTerms from '@/components/OfferTerms';
 import ProviderDisclaimerBanner from '@/components/ProviderDisclaimerBanner';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
@@ -177,7 +178,7 @@ export default function XfinityPage() {
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">XFINITY INTERNET PLANS – SPEED OPTIONS FOR EVERY TYPE OF HOME</h2>
           <p className="text-gray-400 max-w-4xl mx-auto text-sm">
-            "We are not Xfinity or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to Xfinity’s terms and availability."
+            &quot;We are not Xfinity or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to Xfinity&rsquo;s terms and availability.&quot;
           </p>
         </div>
 
@@ -221,6 +222,9 @@ export default function XfinityPage() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="max-w-4xl mx-auto mt-8 px-4">
+          <OfferTerms providerName="Xfinity" />
         </div>
       </section>
 

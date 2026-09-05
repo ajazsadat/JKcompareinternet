@@ -76,7 +76,7 @@ export default function HomeGetStarted() {
               or request a free, no-obligation quote to see available options in your area.
             </p>
             <p className="text-gray-300 leading-relaxed mb-8">
-              We'll walk you through plans, pricing, and promotions — so you can upgrade
+              We&apos;ll walk you through plans, pricing, and promotions — so you can upgrade
               with confidence.
             </p>
 
