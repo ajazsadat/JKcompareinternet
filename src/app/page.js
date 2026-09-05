@@ -18,15 +18,15 @@ export default function Home() {
   const faqs = [
     {
       q: "Which internet providers can I find through your platform?",
-      a: "jkcompareinternet.online is operated by Jari & Kinza Corporation. We partner with a network of licensed resellers, authorized retailers, and master-dealer distributors representing leading U.S. telecom and internet service brands. Availability and offers vary by ZIP code — call us at (888) 879-9161 to view current plan options in your area."
+      a: "jkcompareinternet.online is operated by Jari & Kinza Corporation. We compare plans from leading U.S. telecom and internet service brands and refer you to the provider you choose. Availability and offers vary by ZIP code — call us at (888) 879-9161 to view current plan options in your area."
     },
     {
       q: "How can I qualify for special promotions or discounts?",
       a: "Promotional eligibility is determined by each provider’s individual policies, location, and credit requirements. During your free consultation, our representatives will outline available promotions, qualifying terms, and applicable timelines — with absolutely no purchase obligation."
     },
     {
-      q: "What does it mean to be an “authorized reseller” or “partner network”?",
-      a: "We are not the direct provider of internet, wireless, or cable services. Instead, we operate as an authorized reseller and licensed retailer for multiple carrier and service networks across the U.S. This means we’re approved to market, compare, and facilitate service orders through official partner and master-dealer programs — giving customers access to more plan options in one place. jkcompareinternet.online is operated by Jari & Kinza Corporation."
+      q: "What does it mean to be a “comparison and referral service”?",
+      a: "We are not the direct provider of internet, wireless, or cable services, and we are not owned or controlled by any carrier. We gather publicly available plan information from multiple providers so you can compare options side by side in one place, and we refer you to the provider you choose. The provider handles pricing, ordering, installation, billing, and support. jkcompareinternet.online is operated by Jari & Kinza Corporation."
     },
     {
       q: "Do you charge for your services?",
@@ -64,7 +64,7 @@ export default function Home() {
         <div className="relative z-10 text-center px-4 max-w-5xl mx-auto mt-10">
           <div className="inline-flex items-center px-4 py-2 rounded-full border border-blue-500/30 bg-blue-500/10 text-blue-400 text-sm font-medium mb-8">
             <span className="flex w-2 h-2 rounded-full bg-blue-400 animate-pulse mr-2"></span>
-            Independent Authorized Reseller
+            Independent Comparison &amp; Referral Platform
           </div>
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold text-white mb-6 tracking-tight leading-tight drop-shadow-lg">
             Find Reliable <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Internet, TV &amp; Wireless</span> Plans Near You
@@ -91,10 +91,10 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">Who We Are</h2>
           <p className="text-gray-300 text-lg font-light leading-relaxed mb-6">
-            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an independent,
-            authorized reseller that works with multiple leading broadband, cable, and wireless
-            providers. We don&apos;t favor any carrier — our recommendations are based on your
-            location, your needs, and your budget.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an independent
+            comparison and referral service that helps you evaluate plans from multiple leading
+            broadband, cable, and wireless providers. We don&apos;t favor any carrier — our
+            recommendations are based on your location, your needs, and your budget.
           </p>
           <p className="text-gray-400 font-light leading-relaxed">
             We are not an internet service provider and do not own or operate network
@@ -104,7 +104,7 @@ export default function Home() {
       </section>
 
       {/* Solutions Grid Section */}
-      <section className="py-24 bg-[#0b0c10] relative">
+      <section id="services" className="scroll-mt-28 py-24 bg-[#0b0c10] relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Entertainment & Connectivity Solutions<br/><span className="text-blue-400">Compared Through JKcompareinternet</span></h2>
@@ -152,7 +152,10 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="py-24 bg-gradient-to-b from-[#0b0c10] to-[#111827] relative border-t border-white/5">
+      <section
+        id="choose-us"
+        className="scroll-mt-28 py-24 bg-gradient-to-b from-[#0b0c10] to-[#111827] relative border-t border-white/5"
+      >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row gap-16 items-center">
             
@@ -243,8 +246,8 @@ export default function Home() {
           <p className="text-gray-300 text-lg font-light leading-relaxed">
             A single, convenient platform to explore high-speed Internet, Cable TV, Home Phone,
             Wireless, and Home Security options—featuring real-time availability, upfront pricing,
-            and easy installation coordination as an independent, authorized retailer and licensed
-            reseller for several leading U.S. telecom and home service providers.
+            and easy installation coordination as an independent comparison and referral service
+            covering several leading U.S. telecom and home service providers.
           </p>
         </div>
       </section>

@@ -23,9 +23,10 @@ export default function TermsConditions() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-white mb-4">Introduction</h2>
           <p className="mb-4 leading-relaxed font-light">
-            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, a certified
-            third-party reseller connecting customers with licensed telecommunications and
-            technology service providers across the United States.
+            jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an independent
+            comparison and referral service connecting customers with licensed telecommunications
+            and technology service providers across the United States. We do not sell or manage
+            carrier accounts.
           </p>
           <p className="mb-4 leading-relaxed font-light">
             We do not own or operate any internet, cable, wireless, or communication networks. Our
@@ -38,9 +39,9 @@ export default function TermsConditions() {
           <h2 className="text-2xl font-semibold text-white mb-4">Service Role &amp; Limitation</h2>
           <ul className="list-disc pl-5 space-y-3 font-light text-gray-400">
             <li>
-              jkcompareinternet.online, operated by Jari &amp; Kinza Corporation, serves as a
-              facilitator and advisory partner, assisting you in finding and selecting the most
-              suitable services from our partner providers.
+              jkcompareinternet.online, operated by Jari &amp; Kinza Corporation, serves as an
+              independent comparison and referral service, assisting you in finding and selecting
+              the most suitable services from the providers we compare.
             </li>
             <li>
               The selected provider is solely responsible for service installation, activation,

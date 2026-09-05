@@ -48,7 +48,7 @@ export default function Footer() {
                 <Link href="/terms-conditions" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Terms & Conditions</Link>
               </li>
               <li>
-                <Link href="/reseller-disclosure" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Reseller Disclosure</Link>
+                <Link href="/comparison-disclosure" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Comparison &amp; Referral Disclosure</Link>
               </li>
               <li>
                 <Link href="/cookie-policy" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Cookie Policy</Link>

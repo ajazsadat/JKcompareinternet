@@ -81,8 +81,8 @@ export default function SpectrumPage() {
 
   const faqs = [
     {
-      q: 'Are you an official Spectrum reseller?',
-      a: 'No, JKcompareinternet is not an authorized Spectrum reseller. We do not sell Spectrum packages directly. Our goal is to provide independent guidance so you can explore options and find the right provider for your needs.',
+      q: 'Do you sell Spectrum service?',
+      a: 'No. JKcompareinternet is an independent comparison and referral service and is not affiliated with Spectrum. We do not sell Spectrum packages or manage Spectrum accounts. Our goal is to provide independent guidance so you can explore options and find the right provider for your needs.',
     },
     {
       q: 'How can I contact Spectrum customer support?',

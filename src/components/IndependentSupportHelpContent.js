@@ -1,8 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import HideLiveChat from '@/components/HideLiveChat';
+import { SITE } from '@/lib/site';
 
-const PHONE_DISPLAY = '(888) 879-9161';
-const PHONE_HREF = 'tel:8888799161';
+const PHONE_DISPLAY = SITE.phoneDisplay;
+const PHONE_HREF = `tel:${SITE.phoneTel}`;
 
 function CallIcon({ gradientId = 'supportCallGrad' }) {
   return (
@@ -27,6 +29,8 @@ function CallIcon({ gradientId = 'supportCallGrad' }) {
 export default function IndependentSupportHelpContent({ className = '' }) {
   return (
     <div className={`min-h-screen w-full bg-[#0b0c10] px-4 py-10 sm:py-14 ${className}`}>
+      <HideLiveChat />
+
       <div className="mx-auto flex w-full max-w-6xl flex-col items-center">
         <h1 className="mb-8 max-w-4xl text-center text-3xl font-extrabold tracking-tight text-white sm:mb-10 sm:text-4xl md:text-5xl">
           Call now and we&apos;ll walk you through your{' '}
@@ -88,9 +92,25 @@ export default function IndependentSupportHelpContent({ className = '' }) {
         </div>
 
         <p className="page-disclaimer mt-10 max-w-3xl text-center text-sm leading-relaxed text-gray-400 md:mt-12">
-          Jari &amp; Kinza Corporation operates as an independent comparison platform that helps
-          users explore and evaluate Internet and TV plans from multiple trusted providers. We do
-          not directly sell, install, or manage any Internet or TV services.
+          {SITE.comparePageDisclosure}
+        </p>
+
+        {/*
+          Kept in the markup but visually hidden, mirroring the reference site's
+          agent pages. Do not "fix" the hidden class — it is intentional.
+        */}
+        <nav aria-label="Legal" className="hidden">
+          <ul>
+            {SITE.legalLinks.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href}>{item.name}</Link>
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <p className="mt-3 text-center text-xs text-gray-500">
+          {SITE.addressLine1}, {SITE.addressLine2}
         </p>
       </div>
     </div>

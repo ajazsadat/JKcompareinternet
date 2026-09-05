@@ -7,12 +7,9 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isProvidersOpen, setIsProvidersOpen] = useState(false);
   const pathname = usePathname() || '';
-  const [mounted, setMounted] = useState(false);
   const dropdownRef = useRef(null);
 
   useEffect(() => {
-    setMounted(true);
-    
     function handleClickOutside(event) {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setIsProvidersOpen(false);
@@ -26,6 +23,8 @@ export default function Header() {
 
   const navLinks = [
     { name: 'Home', href: '/' },
+    { name: 'Services', href: '/#services' },
+    { name: 'Choose Us', href: '/#choose-us' },
     { name: 'About Us', href: '/about' },
     { name: 'Live Agent', href: '/live-agent' },
     { name: 'Contact Us', href: '/contact' },
@@ -53,20 +52,6 @@ export default function Header() {
     return null;
   }
 
-  // Prevent hydration errors by not rendering UI that depends on window until mounted
-  if (!mounted) {
-    return (
-      <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/5">
-        {showHeaderDisclaimer && (
-          <div className="bg-cyan-900/30 text-gray-300 text-[10px] sm:text-xs py-2 px-4 text-center border-b border-white/10 leading-snug">
-            {headerDisclaimer}
-          </div>
-        )}
-        <div className="h-20"></div>
-      </header>
-    );
-  }
-
   return (
     <header className="sticky top-0 w-full z-50 transition-all duration-300 bg-[#0b0c10]/90 backdrop-blur-md border-b border-white/10">
       {showHeaderDisclaimer && (
@@ -82,7 +67,7 @@ export default function Header() {
             </Link>
           </div>
           
-          <div className="hidden md:flex space-x-8 items-center">
+          <div className="hidden lg:flex gap-5 xl:gap-7 items-center">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -130,12 +115,12 @@ export default function Header() {
               )}
             </div>
 
-            <a href="tel:(888) 879-9161" className="ml-8 inline-flex items-center justify-center text-center px-6 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 focus:ring-offset-[#0b0c10] transition-all transform hover:scale-105">
+            <a href="tel:(888) 879-9161" className="inline-flex items-center justify-center text-center px-5 py-2.5 border border-transparent rounded-full shadow-sm text-sm font-medium text-white bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-500 hover:to-cyan-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-cyan-500 focus:ring-offset-[#0b0c10] transition-all transform hover:scale-105">
               Compare & Call: (888) 879-9161
             </a>
           </div>
 
-          <div className="flex items-center md:hidden">
+          <div className="flex items-center lg:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="text-gray-300 hover:text-white focus:outline-none"
@@ -157,7 +142,7 @@ export default function Header() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-[#1f2833] border-b border-white/10">
+        <div className="lg:hidden bg-[#1f2833] border-b border-white/10">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
               <Link

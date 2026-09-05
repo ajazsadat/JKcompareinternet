@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'About Us | JKcompareinternet',
   description:
-    'jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent, authorized reseller that works with multiple leading broadband, cable, and wireless providers.',
+    'jkcompareinternet.online is operated by Jari & Kinza Corporation, an independent comparison and referral service covering multiple leading broadband, cable, and wireless providers.',
 };
 
 export default function About() {
@@ -28,9 +28,10 @@ export default function About() {
                 <h2 className="text-3xl font-bold text-white mb-4">Who We Are</h2>
                 <p className="text-gray-400 leading-relaxed">
                   jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an
-                  independent, authorized reseller that works with multiple leading broadband,
-                  cable, and wireless providers. We don&apos;t favor any carrier — our
-                  recommendations are based on your location, your needs, and your budget.
+                  independent comparison and referral service that helps you evaluate plans from
+                  multiple leading broadband, cable, and wireless providers. We don&apos;t favor
+                  any carrier — our recommendations are based on your location, your needs, and
+                  your budget.
                 </p>
                 <p className="text-gray-400 leading-relaxed mt-4">
                   We are not an internet service provider and do not own or operate network
@@ -44,8 +45,8 @@ export default function About() {
                 <p className="text-gray-400 leading-relaxed">
                   A single, convenient platform to explore high-speed Internet, Cable TV, Home
                   Phone, Wireless, and Home Security options—featuring real-time availability,
-                  upfront pricing, and easy installation coordination as an independent, authorized
-                  retailer and licensed reseller for several leading U.S. telecom and home service
+                  upfront pricing, and easy installation coordination as an independent comparison
+                  and referral service covering several leading U.S. telecom and home service
                   providers.
                 </p>
               </div>
@@ -69,12 +70,14 @@ export default function About() {
               </div>
 
               <div>
-                <h2 className="text-3xl font-bold text-white mb-4">Reseller Disclosure</h2>
+                <h2 className="text-3xl font-bold text-white mb-4">
+                  Comparison &amp; Referral Disclosure
+                </h2>
                 <p className="text-gray-400 leading-relaxed">
                   jkcompareinternet.online is operated by Jari &amp; Kinza Corporation, an
-                  independent authorized sales partner and reseller that helps customers compare,
-                  select, and activate broadband, wireless, and digital services across the United
-                  States.
+                  independent comparison and referral service that helps customers compare and
+                  select broadband, wireless, and digital services across the United States. We do
+                  not sell or manage carrier accounts directly.
                 </p>
               </div>
             </div>
