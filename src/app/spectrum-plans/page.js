@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
+import OfferTerms from '@/components/OfferTerms';
 import ProviderDisclaimerBanner from '@/components/ProviderDisclaimerBanner';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 import SpectrumTabs from '@/components/SpectrumTabs';
@@ -85,8 +86,8 @@ export default function SpectrumPage() {
       a: 'No. JKcompareinternet is an independent comparison and referral service and is not affiliated with Spectrum. We do not sell Spectrum packages or manage Spectrum accounts. Our goal is to provide independent guidance so you can explore options and find the right provider for your needs.',
     },
     {
-      q: 'How can I contact Spectrum customer support?',
-      a: "While we don't handle Spectrum accounts ourselves, we can guide you on how to reach Spectrum customer support and help you understand what services are available in your area.",
+      q: 'Can you help me compare providers in my area?',
+      a: "Yes. We can walk you through internet, TV, and phone options that may be available near you, including Spectrum and other major providers, so you can see what is realistic for your address.",
     },
     {
       q: 'What makes JKcompareinternet different?',
@@ -252,6 +253,9 @@ export default function SpectrumPage() {
           ))}
         </div>
 
+        <div className="max-w-4xl mx-auto mt-8 px-4">
+          <OfferTerms providerName="Spectrum" />
+        </div>
       </section>
 
       <ProviderComparisonTable />

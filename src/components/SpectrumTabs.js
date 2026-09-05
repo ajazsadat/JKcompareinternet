@@ -6,7 +6,6 @@ const TABS = [
   { label: 'About Spectrum', hash: 'about' },
   { label: 'Internet', hash: 'internet' },
   { label: 'TV', hash: 'tv' },
-  { label: 'Customer Service', hash: 'customer-service' },
 ];
 
 function getActiveHash() {

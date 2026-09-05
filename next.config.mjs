@@ -13,6 +13,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/live-agent',
+        destination: '/contact-us-to-compare',
+        permanent: true,
+      },
+      {
         source: '/providers/xfinity',
         destination: '/xfinity-plans',
         permanent: true,

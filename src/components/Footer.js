@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 export default function Footer() {
   const pathname = usePathname() || '';
   const hideChrome =
-    pathname === '/live-agent' || pathname === '/compare-internet-options';
+    pathname === '/contact-us-to-compare' || pathname === '/compare-internet-options';
 
   if (hideChrome) {
     return null;
@@ -36,10 +36,22 @@ export default function Footer() {
                 <Link href="/contact" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Contact Us</Link>
               </li>
               <li>
-                <Link href="/live-agent" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Live Agent</Link>
+                <Link href="/contact-us-to-compare" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Contact Us to Compare</Link>
               </li>
               <li>
                 <Link href="/compare-internet-options" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Compare Internet Options</Link>
+              </li>
+              <li>
+                <Link href="/xfinity-plans" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Xfinity Plans</Link>
+              </li>
+              <li>
+                <Link href="/spectrum-plans" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Spectrum Plans</Link>
+              </li>
+              <li>
+                <Link href="/frontier-plans" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Frontier Plans</Link>
+              </li>
+              <li>
+                <Link href="/windstream-plans" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Windstream Plans</Link>
               </li>
               <li>
                 <Link href="/privacy-policy" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">Privacy Policy</Link>

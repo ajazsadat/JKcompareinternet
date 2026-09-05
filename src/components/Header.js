@@ -26,21 +26,21 @@ export default function Header() {
     { name: 'Services', href: '/#services' },
     { name: 'Choose Us', href: '/#choose-us' },
     { name: 'About Us', href: '/about' },
-    { name: 'Live Agent', href: '/live-agent' },
+    { name: 'Contact Us to Compare', href: '/contact-us-to-compare' },
     { name: 'Contact Us', href: '/contact' },
   ];
 
   const providerLinks = [
     { name: 'Xfinity', href: '/xfinity-plans' },
-    // { name: 'Frontier', href: '/frontier-plans' },
-    // { name: 'Windstream', href: '/windstream-plans' },
     { name: 'Spectrum', href: '/spectrum-plans' },
+    { name: 'Frontier', href: '/frontier-plans' },
+    { name: 'Windstream', href: '/windstream-plans' },
   ];
 
   const isActive = (path) => pathname === path || (path !== '/' && pathname.startsWith(path));
   const isProviderPage = providerLinks.some((link) => pathname === link.href);
   const hideChrome =
-    pathname === '/live-agent' || pathname === '/compare-internet-options';
+    pathname === '/contact-us-to-compare' || pathname === '/compare-internet-options';
 
   // Matches reference site masthead disclaimer (hidden on homepage — homepage uses the
   // before-footer Disclaimer section only).

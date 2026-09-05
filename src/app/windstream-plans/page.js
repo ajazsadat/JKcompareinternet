@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import ProviderComparisonTable from '@/components/ProviderComparisonTable';
+import OfferTerms from '@/components/OfferTerms';
 import ProviderWhyChoose from '@/components/ProviderWhyChoose';
 
 export const metadata = {
@@ -102,7 +103,7 @@ export default function WindstreamPage() {
         <div className="mb-12 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Internet Plans For Windstream</h2>
           <p className="text-gray-400 max-w-4xl mx-auto text-sm">
-            "We are not Windstream or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to provider's terms and availability."
+            &quot;We are not Windstream or any other service provider. These plans are shown for comparison purposes. Prices, features, and hardware are subject to provider&apos;s terms and availability.&quot;
           </p>
         </div>
 
@@ -177,6 +178,9 @@ export default function WindstreamPage() {
           </div>
         </div>
 
+        <div className="max-w-4xl mx-auto mt-8 px-4">
+          <OfferTerms providerName="Windstream" />
+        </div>
       </section>
 
       <ProviderComparisonTable />

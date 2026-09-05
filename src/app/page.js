@@ -214,7 +214,7 @@ export default function Home() {
                 
                 <h3 className="text-3xl font-bold text-white mb-6 relative z-10">Looking for High-Speed Internet Plan?</h3>
                 <p className="text-gray-300 mb-8 font-light leading-relaxed relative z-10">
-                  We're Here to Guide You Through Comparing Options From Participating Providers. Compare your options with confidence.
+                  We&apos;re Here to Guide You Through Comparing Options From Participating Providers. Compare your options with confidence.
                 </p>
                 
                 <div className="relative z-10">
